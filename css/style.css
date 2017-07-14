@@ -16,6 +16,10 @@ body, html {
 	height: 100%;
 }
 
+a {
+    cursor: pointer;
+}
+
 .green-line {
     height: 4px;
     background: chartreuse;
@@ -454,30 +458,26 @@ body .nav .nav-menu li a {
 }
 
 #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 
 #intro h1 {
-	position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
     font-family: arial, sans-serif;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 38px;
     color: white;
 }
 
 #intro p {
-	position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 100px;
+    margin: 20px 0 0 0;
     font-family: helvetica, arial, sans-serif;
-    font-size: 25px;
+    font-size: 32px;
     color: white;
 }
 
@@ -500,17 +500,11 @@ body .nav .nav-menu li a {
 }
 
 #intro .who-iam {
-	position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 170px;
-    font-size: 24px;
+    margin-top: 110px;
+    font-size: 29px;
 }
 
 #intro .who-iam a {
-	position: relative;
 	text-decoration: none;
 	opacity: 0.8;
 	color: white;
@@ -538,7 +532,6 @@ body .nav .nav-menu li a {
 	margin: 0 auto;
 	text-align: center;
     background: #fcfcfc;
-    height: 90%;
     font-family: arial, sans-serif;
 }
 
@@ -548,7 +541,13 @@ body .nav .nav-menu li a {
     color: black;
 }
 
+#about .flex-about {
+    display: flex;
+    align-items: center;
+}
+
 #about img {
+    order: 2;
 	display: inline-block;
 	height: 300px;
 	width: 270px;
@@ -560,7 +559,7 @@ body .nav .nav-menu li a {
 }
 
 #about button {
-	margin: 0 auto;
+	margin: 10px auto 30px auto;
 	text-align: center;
 	padding: 16px;
 	border-radius: 7px;
@@ -1059,13 +1058,13 @@ body .nav .nav-menu li a {
 }
 
 #footer-1 .middle-footer .notes span {
-    color: #555;
+    color: #efefef;
     margin: 2px;
 }
 
 #footer-1 .middle-footer .notes li a {
     text-decoration: none;
-    color: #4a5379;
+    color: #999;
     font-size: 16px;
     font-family: arial, sans-serif;
 }
@@ -1124,7 +1123,7 @@ body .nav .nav-menu li a {
     color: white;
 }
 
-#footer-1 .fa-instagram {
+#footer-1 .fa-twitter {
     background: #125688;
     color: white;
 }
@@ -1208,6 +1207,12 @@ body .nav .nav-menu li a {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .alert {
+        height: 120px;
+    }
+}
+
 /* Floating social icons Styling */
 
 #float-social {
@@ -1269,7 +1274,7 @@ body .nav .nav-menu li a {
 /* Typing JS Styling */
 
 #intro .typing {
-    margin: 60px auto 0 auto;
+    margin: 10px auto 10px auto;
 }
 
 #intro .im-a {
@@ -1338,63 +1343,8 @@ body #myBtn {
   	z-index: 9999;
 }
 
-/***** Media Queries and Responsive Section *****/
-
-/* Intro Section */
-
-@media screen and (max-width: 1090px) {
-	#intro h1 {
-		position: relative;
-		text-align: center;
-	}
-
-	#intro .request a:hover {
-		border: none;
-		color: blue;
-	}
-
-	#intro .who-iam a {
-		position: relative;
-		margin-top: 200px;
-	}
-}
-
-@media screen and (max-width: 580px) {
-	#about {
-		height: 109%;
-	}
-    
-    #intro .who-iam {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 989px) {
-	#intro .request a {
-		color: #ddd;
-		border: none;
-		font-size: 21px;
-		padding: 2px;
-		margin: 0;
-	}
-
-	#intro .request a:hover {
-		color: white;
-		border: none;
-	}
-
-	#about img {
-		width: 140px;
-		height: 150px;
-		padding: 10px;
-	}
-
-	#about .bio-1, #about .bio-2 {
-		padding: 10px;
-        font-size: 15px;
-	}
-
-	body #myBtn {
+    body #myBtn {
 		width: 40px;
 		height: 40px;
 		bottom: 10px;
@@ -1407,6 +1357,62 @@ body #myBtn {
 	}
 }
 
+/***** Media Queries and Responsive Section *****/
+
+/* Intro Responsive Section */
+
+@media screen and (max-width: 989px) {
+	#intro .request a {
+		color: #ddd;
+		border: none;
+		font-size: 28px;
+		padding: 2px;
+		margin: 0;
+	}
+
+	#intro .request a:hover {
+		color: white;
+		border: none;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	#intro .request a:hover {
+		border: none;
+		color: blue;
+	}
+}
+
+@media screen and (max-height: 580px) {
+    #intro h1 {
+        font-size: 25px;
+    }
+    
+    #intro .who-iam {
+        font-size: 26px;
+    }
+}
+
+/* About Responsive Section */
+
+@media screen and (max-width: 989px) {
+    #about .flex-about {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+	#about img {
+        order: 0;
+		width: 170px;
+		height: 180px;
+		padding: 10px;
+	}
+
+	#about .bio-1 {
+		padding: 10px;
+        font-size: 15px;
+	}
+}
 
 @media screen and (min-width: 990px) {
 	#about img {
@@ -1421,14 +1427,12 @@ body #myBtn {
 		margin: 40px auto;
 	}
 
-
-	#about .bio-1, #about .bio-2 {
+	#about .bio-1 {
 		margin-left: 20px;
 		padding: 20px 40px;
 		width: 600px;
 		font-size: 19px;
 	}
-
 }
 
 @media screen and (min-width: 1300px) {
@@ -1439,13 +1443,25 @@ body #myBtn {
 		height: 380px;
 	}
 
-	#about .bio-1, #about .bio-2 {
+	#about .bio-1 {
 		font-size: 25px;
 		padding: 20px 5px 5px 5px;
 	}
 }
 
-/* Services responsive section */
+@media screen and (max-height: 580px) {
+    #about {
+        padding: 20px 0 50px 0;
+    }
+    
+    #about img {
+        width: 130px;
+        height: 140px;
+        padding: 2px;
+    }
+}
+
+/* Services Responsive Section */
 
 @media screen and (min-width: 810px) {
     #services #all-services {
@@ -1477,7 +1493,7 @@ body #myBtn {
     }
 }
 
-/* Portfolio responsive section */
+/* Portfolio Responsive Section */
 
 @media screen and (max-width: 668px) {
     #portfolio .one-third {
@@ -1492,7 +1508,7 @@ body #myBtn {
 	}
 }
 
-/* Contact Section */
+/* Contact Responsive Section */
 
 @media screen and (min-width: 910px) {
     #contact {
@@ -1510,13 +1526,18 @@ body #myBtn {
     }
 }
 
-@media screen and (max-width:450px) {
-	#contact {
-		height: 116%;
-	}
+
+@media screen and (max-height: 630px) {
+    #contact {
+        padding: 70px 0;
+    }
+    
+    #contact .hire-contact {
+        font-size: 17px;
+    }
 }
 
-/* Footers Section */
+/* Footers Responsive Section */
 
 @media screen and (min-width: 790px) {
     #footer-1 {
@@ -1815,13 +1836,6 @@ body #myBtn {
 #random button:focus {
     background: #3bc266;
 }
-
-#random .r-pics {
-}
-
-/* Random Page Responsive Section */
-
-
 
 
 
