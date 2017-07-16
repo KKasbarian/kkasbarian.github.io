@@ -958,7 +958,7 @@ body .nav .nav-menu li a {
 #contact .g-recaptcha {
 	margin 10px auto !important;
  	text-align: center;
- 	width: auto !important;
+ 	width: 200px !important;
  	height: auto !important;
 }
 
