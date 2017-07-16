@@ -957,6 +957,7 @@ body .nav .nav-menu li a {
 
 #contact .g-recaptcha {
 	margin: 0 auto;
+	width: 50%;
 }
 
 #contact .submit {
