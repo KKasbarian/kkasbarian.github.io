@@ -956,8 +956,7 @@ body .nav .nav-menu li a {
 }
 
 #contact .captcha {
-  margin: 0 auto !important;
-  width: 304px !important;
+  margin: auto;
 }
 
 #contact .submit {
