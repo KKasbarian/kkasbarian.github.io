@@ -954,6 +954,11 @@ body .nav .nav-menu li a {
     resize: none;
     opacity: 0.8;
 }
+
+#contact .g-recaptcha {
+	margin: 0 auto;
+}
+
 #contact .submit {
     width: 50%;
     border-radius: 3px;
