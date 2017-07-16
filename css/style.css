@@ -956,9 +956,10 @@ body .nav .nav-menu li a {
 }
 
 #contact .g-recaptcha {
-	margin: 0 auto;
-	width: 50%;
-	display: inline-block;
+	margin 10px auto !important;
+ 	text-align: center;
+ 	width: auto !important;
+ 	height: auto !important;
 }
 
 #contact .submit {
