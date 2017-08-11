@@ -485,7 +485,6 @@ body .nav .nav-menu li a {
 	text-decoration: none;
 	color: white;
 	padding: 4px;
-	margin-left: 4px;
 	border: 3px solid white;
 	transition: ease-in 0.2s;
 	-webkit-transition: ease-in 0.2s;
@@ -494,8 +493,6 @@ body .nav .nav-menu li a {
 }
 
 #intro .request a:hover {
-	border: 3px solid white;
-	background: black;
 	color: white;
 }
 
@@ -638,9 +635,14 @@ body .nav .nav-menu li a {
 }
 
 #services #all-services section h3 {
-    font-size: 19px;
+    font-size: 21px;
     font-family: arial, sans-serif;
     font-weight: normal;
+}
+
+#services #all-services section p {
+    font-size: 17px;
+    padding-top: 15px;
 }
 
 #services #some-skills {
@@ -824,6 +826,13 @@ body .nav .nav-menu li a {
     line-height: 1.3;
 }
 
+#portfolio .flex-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    clear: both;
+}
+
 #portfolio .works, #portfolio .contact {
     margin: 20px;
     padding: 12px;
@@ -843,10 +852,6 @@ body .nav .nav-menu li a {
     padding: 6px 4px;
 }
 
-#portfolio .works a:hover {
-    
-}
-
 #portfolio .contact {
     background: orange;
 	background: -webkit-linear-gradient(left, #ea4 , #f90);
@@ -864,14 +869,6 @@ body .nav .nav-menu li a {
 	background: -o-linear-gradient(right, #ea4, #f90);
 	background: -moz-linear-gradient(right, #ea4, #f90);
 	background: linear-gradient(to right, #ea4 , #f90);
-}
-
-#portfolio .contact a:hover {
-    background: #f90;
-	background: -webkit-linear-gradient(left, #f90 , #ea4);
-	background: -o-linear-gradient(right, #f90, #ea4);
-	background: -moz-linear-gradient(right, #f90, #ea4);
-	background: linear-gradient(to right, #f90 , #ea4);
 }
 
 /* Contact Us Section Styling */
@@ -1368,23 +1365,19 @@ body #myBtn {
 
 @media screen and (max-width: 989px) {
 	#intro .request a {
-		color: #ddd;
-		border: none;
 		font-size: 28px;
-		padding: 2px;
+		padding: 4px;
 		margin: 0;
 	}
 
 	#intro .request a:hover {
 		color: white;
-		border: none;
 	}
 }
 
 @media screen and (max-width: 1090px) {
 	#intro .request a:hover {
-		border: none;
-		color: blue;
+		opacity: 0.9;
 	}
 }
 
@@ -1481,9 +1474,9 @@ body #myBtn {
     }
     
     #services #all-services section {
-        width: 300px;
-        height: 200px;
-        padding: 50px 0 0 0;
+        width: 320px;
+        height: 230px;
+        padding: 30px 3px;
     }
     
     #services #some-skills .my-knowledge {
@@ -1511,6 +1504,11 @@ body #myBtn {
         height: auto;
         margin: 0 auto;
 	}
+    
+    #portfolio .flex-btn button a {
+        font-size: 16px;
+        padding: 0 3px;
+    }
 }
 
 /* Contact Responsive Section */
