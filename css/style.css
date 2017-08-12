@@ -20,16 +20,9 @@ a {
     cursor: pointer;
 }
 
-.green-line {
+.hr-line {
     height: 4px;
-    background: chartreuse;
-    width: 100px;
-    margin: 0 auto 20px auto;
-}
-
-.blue-line {
-    height: 4px;
-    background: #0b93ee;
+    background: #555;
     width: 100px;
     margin: 0 auto 20px auto;
 }
@@ -443,7 +436,7 @@ body .nav .nav-menu li a {
 /* Intro Styling */
 
 #intro {
-    background-image: url('../images/code.jpg');
+    background-image: url('../images/bg.jpg');
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -483,7 +476,7 @@ body .nav .nav-menu li a {
 
 #intro .request a {
 	text-decoration: none;
-	color: white;
+	color: #fff;
 	padding: 4px;
 	border: 3px solid white;
 	transition: ease-in 0.2s;
@@ -493,7 +486,7 @@ body .nav .nav-menu li a {
 }
 
 #intro .request a:hover {
-	color: white;
+	color: #eee;
 }
 
 #intro .who-iam {
@@ -504,23 +497,21 @@ body .nav .nav-menu li a {
 #intro .who-iam a {
 	text-decoration: none;
 	opacity: 0.8;
-	color: white;
-	background: #f90;
-	background: -webkit-linear-gradient(left, #f90 , #ea4);
-	background: -o-linear-gradient(right, #f90, #ea4);
-	background: -moz-linear-gradient(right, #f90, #ea4);
-	background: linear-gradient(to right, #f90 , #ea4);
-	padding: 7px;
+	color: #fff;
+	padding: 15px 7px;
+    border-bottom: 2px solid #000;
 	border-radius: 7px;
+    opacity: 0.9;
+    -webkit-transition: all 0.6s;
+       -moz-transition: all 0.6s;
+        -ms-transition: all 0.6s;
+         -o-transition: all 0.6s;
+            transition: all 0.6s;
 }
 
 #intro .who-iam a:hover {
-	background: orange;
-	background: -webkit-linear-gradient(left, #ea4 , #f90);
-	background: -o-linear-gradient(right, #ea4, #f90);
-	background: -moz-linear-gradient(right, #ea4, #f90);
-	background: linear-gradient(to right, #ea4 , #f90);
-	color: #fff;
+    border-bottom: 2px solid #fff;
+    opacity: 1;
 }
 
 /* About Section Styling */
@@ -528,7 +519,7 @@ body .nav .nav-menu li a {
 #about {
 	margin: 0 auto;
 	text-align: center;
-    background: #fcfcfc;
+    background: #f9f9f9;
     font-family: arial, sans-serif;
 }
 
@@ -559,41 +550,35 @@ body .nav .nav-menu li a {
 	margin: 10px auto 30px auto;
 	text-align: center;
 	padding: 16px;
-	border-radius: 7px;
-	background: #f90;
-	background: -webkit-linear-gradient(left, #f90 , #ea4);
-	background: -o-linear-gradient(right, #f90, #ea4);
-	background: -moz-linear-gradient(right, #f90, #ea4);
-	background: linear-gradient(to right, #f90 , #ea4);
+    background: none;
 }
 
 #about button a {
 	text-decoration: none;
-	font-size: 17px;
-	font-family: arial, sans-serif;
-	padding: 13px;
-	color: #fff;
-	background: #f90;
-	background: -webkit-linear-gradient(left, #f90 , #ea4);
-	background: -o-linear-gradient(right, #f90, #ea4);
-	background: -moz-linear-gradient(right, #f90, #ea4);
-	background: linear-gradient(to right, #f90 , #ea4);
+	opacity: 0.8;
+	color: #000;
+	padding: 15px 7px;
+    border-bottom: 2px solid #000;
+	border-radius: 7px;
+    font-size: 24px;
+    opacity: 0.9;
+    -webkit-transition: all 0.6s;
+       -moz-transition: all 0.6s;
+        -ms-transition: all 0.6s;
+         -o-transition: all 0.6s;
+            transition: all 0.6s;
 }
 
 #about button:hover, #about button a:hover {
-	background: orange;
-	background: -webkit-linear-gradient(left, #ea4 , #f90);
-	background: -o-linear-gradient(right, #ea4, #f90);
-	background: -moz-linear-gradient(right, #ea4, #f90);
-	background: linear-gradient(to right, #ea4 , #f90);
-	color: #fff;
+    border-bottom-color: #787;
+    opacity: 1;
 }
 
 /* Services Section Styling */
 
 #services {
     padding: 30px;
-    background: #0b93ee;
+    background: #fff;
 }
 
 #services .header-2 {
@@ -623,10 +608,18 @@ body .nav .nav-menu li a {
     background: #fff;
     border-radius: 2px;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 1px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.7s;
+       -moz-transition: all 0.7s;
+         -o-transition: all 0.7s;
+            transition: all 0.7s;
 }
 
 #services #all-services section:hover {
     box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.04);
+       -moz-transform: scale(1.04);
+         -o-transform: scale(1.04);
+            transform: scale(1.04);
 }
 
 #services #all-services section i {
@@ -641,22 +634,25 @@ body .nav .nav-menu li a {
 }
 
 #services #all-services section p {
-    font-size: 17px;
+    font-size: 16px;
+    font-family: arial, sans-serif;
     padding-top: 15px;
 }
 
-#services #some-skills {
+#some-skills {
     text-align: center;
-    margin: 10px auto 50px auto;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: #f9f9f9;
 }
 
-#services #some-skills h2 {
+#some-skills h2 {
     font-family: helvetica, arial, sans-serif;
     font-size: 39px;
     padding: 0 0 10px 0;
 }
 
-#services #some-skills h4 {
+#some-skills h4 {
     text-align: left;
     font-size: 30px;
     padding: 6px 0 6px 7px;
@@ -664,7 +660,7 @@ body .nav .nav-menu li a {
     border-left: 2px solid chartreuse;
 }
 
-#services #some-skills .my-knowledge {
+#some-skills .my-knowledge {
     display: -webkit-flex;
    display: flex;
    -webkit-justify-content: center;
@@ -673,42 +669,50 @@ body .nav .nav-menu li a {
    flex-flow: column wrap;
 }
 
-#services #some-skills .my-knowledge i {
+#some-skills .my-knowledge i {
     margin: 20px;
     padding: 10px;
-    font-size: 160px;
+    font-size: 110px;
+    -webkit-transition: all 0.7s;
+       -moz-transition: all 0.7s;
+         -o-transition: all 0.7s;
+            transition: all 0.7s;
 }
 
-#services #some-skills .my-knowledge i.t-edit {
+#some-skills .my-knowledge i.t-edit {
     margin-bottom: 0;
     color: #4eee30;
 }
 
-#services #some-skills .my-knowledge .t-editor {
+#some-skills .my-knowledge .t-editor {
     font-size: 30px;
     font-family: fantasy, arial, sans-serif;
     color: #4eee30;
 }
 
-#services #some-skills .my-knowledge .css {
+#some-skills .my-knowledge .css {
     color: blue;
 }
 
-#services #some-skills .my-knowledge .photoshop {
+#some-skills .my-knowledge .photoshop {
     color: #1058a4;
 }
 
-#services #some-skills .my-knowledge .illustrator {
+#some-skills .my-knowledge .illustrator {
     color: #f47723;
 }
 
-#services #some-skills .my-knowledge .chrome {
+#some-skills .my-knowledge .chrome {
     color: #fdd20a;
 }
 
-#services #some-skills .my-knowledge i:hover {
+#some-skills .my-knowledge i:hover {
     background: white;
     box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 #services .resume {
@@ -733,39 +737,34 @@ body .nav .nav-menu li a {
     color: white;
 }
 
-#services .portfolio {
-    display: block;
+#some-skills .portfolio {
 	text-align: center;
 	padding: 16px;
     margin: 10px auto;
+    font-size: 24px;
 	border-radius: 7px;
-	background: #f90;
-	background: -webkit-linear-gradient(left, #f90 , #ea4);
-	background: -o-linear-gradient(right, #f90, #ea4);
-	background: -moz-linear-gradient(right, #f90, #ea4);
-	background: linear-gradient(to right, #f90 , #ea4);
+    background: none;
 }
 
-#services .portfolio a {
+#some-skills .portfolio a {
 	text-decoration: none;
-	font-size: 17px;
-	font-family: arial, sans-serif;
-	padding: 13px;
-	color: #fff;
-	background: #f90;
-	background: -webkit-linear-gradient(left, #f90 , #ea4);
-	background: -o-linear-gradient(right, #f90, #ea4);
-	background: -moz-linear-gradient(right, #f90, #ea4);
-	background: linear-gradient(to right, #f90 , #ea4);
+	opacity: 0.8;
+	color: #000;
+	padding: 15px 7px;
+    border-bottom: 2px solid #000;
+	border-radius: 7px;
+    font-size: 24px;
+    opacity: 0.9;
+    -webkit-transition: all 0.6s;
+       -moz-transition: all 0.6s;
+        -ms-transition: all 0.6s;
+         -o-transition: all 0.6s;
+            transition: all 0.6s;
 }
 
-#services .portfolio:hover, #services .portfolio a:hover {
-	background: orange;
-	background: -webkit-linear-gradient(left, #ea4 , #f90);
-	background: -o-linear-gradient(right, #ea4, #f90);
-	background: -moz-linear-gradient(right, #ea4, #f90);
-	background: linear-gradient(to right, #ea4 , #f90);
-	color: #fff;
+#some-skills .portfolio a:hover {
+    border-bottom-color: #787;
+    opacity: 1;
 }
 
 /* Portfolio Section Styling */
@@ -842,7 +841,7 @@ body .nav .nav-menu li a {
 }
 
 #portfolio .works {
-    border-radius: 3px;
+    border-radius: 1px;
     background: #0b93ee;
 }
 
@@ -852,23 +851,32 @@ body .nav .nav-menu li a {
     padding: 6px 4px;
 }
 
+#portfolio .works a:hover {
+    color: #eed;
+}
+
 #portfolio .contact {
-    background: orange;
-	background: -webkit-linear-gradient(left, #ea4 , #f90);
-	background: -o-linear-gradient(right, #ea4, #f90);
-	background: -moz-linear-gradient(right, #ea4, #f90);
-	background: linear-gradient(to right, #ea4 , #f90);
+    text-decoration: none;
+	color: #fff;
+	padding: 4px;
+	border: 3px solid white;
+    border-radius: 1px;
 }
 
 #portfolio .contact a {
     text-decoration: none;
     padding: 11px 9px;
+    font-size: 23px;
     color: white;
-    background: orange;
-	background: -webkit-linear-gradient(left, #ea4 , #f90);
-	background: -o-linear-gradient(right, #ea4, #f90);
-	background: -moz-linear-gradient(right, #ea4, #f90);
-	background: linear-gradient(to right, #ea4 , #f90);
+	-webkit-transition: ease-in 0.6s;
+	   -moz-transition: ease-in 0.6s;
+        -ms-transition: ease-in 0.6s;
+	     -o-transition: ease-in 0.6s;
+            transition: ease-in 0.6s;
+}
+
+#portfolio .contact a:hover {
+    color: #999;
 }
 
 /* Contact Us Section Styling */
@@ -934,7 +942,7 @@ body .nav .nav-menu li a {
 
 #contact select {
     max-width: 100%;
-    width: 90%;
+    width: 93%;
     padding: 10px;
     margin: 10px auto;
     background: #fcfcfc;
@@ -950,10 +958,6 @@ body .nav .nav-menu li a {
     border-radius: 4px;
     resize: none;
     opacity: 0.8;
-}
-
-#contact .g-recaptcha {
-  margin: auto;
 }
 
 #contact .submit {
@@ -980,36 +984,12 @@ body .nav .nav-menu li a {
     border: none;
 }
 
-#contact .reset {
-    width: 50%;
-    border-radius: 3px;
-    font-size: 17px;
-    font-family: arial, sans-serif;
-    margin: 4px auto;
-    padding: 10px;
-    opacity: 0.9;
-}
-
-#contact .reset a {
-    text-decoration: none;
-    padding: 10px 20px;
-    color: black;
-}
-
-#contact .reset a:hover {
-    color: #444;
-}
-
-#contact .reset a:focus {
-    border: none;
-}
-
 /* Footers Sections Styling */
 
 #footer-1 {
     max-width: 100%;
     width: 100%;
-    background: #333;
+    background: #e0e0e0;
     padding: 10px 0;
     text-align: center;
 }
@@ -1019,7 +999,8 @@ body .nav .nav-menu li a {
 }
 
 #footer-1 .left-footer p {
-    color: whitesmoke;
+    color: #000;
+    font-size: 19px;
 }
 
 #footer-1 .middle-footer .nav-footer {
@@ -1037,13 +1018,19 @@ body .nav .nav-menu li a {
 
 #footer-1 .middle-footer .nav-footer li a {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
+    color: #555;
+    font-size: 19px;
     font-family: arial, sans-serif;
+    font-weight: 500;
 }
 
 #footer-1 .middle-footer .nav-footer li a:hover {
-    color: #666;
+    color: #222;
+}
+
+#footer-1 .middle-footer .nav-footer span {
+    color: #000;
+    margin-top: 10px;
 }
 
 #footer-1 .middle-footer .notes {
@@ -1060,25 +1047,25 @@ body .nav .nav-menu li a {
 }
 
 #footer-1 .middle-footer .notes span {
-    color: #efefef;
+    color: #000;
     margin: 2px;
 }
 
 #footer-1 .middle-footer .notes li a {
     text-decoration: none;
-    color: #999;
-    font-size: 16px;
+    color: #777;
+    font-size: 18px;
     font-family: arial, sans-serif;
 }
 
 #footer-1 .middle-footer .notes li a:hover {
-    color: ghostwhite;
+    color: #444;
 }
 
 #footer-1 .right-footer h2 {
     font-size: 30px;
     font-family: helvetica, arial, sans-serif;
-    color: lightgray;
+    color: #222;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -1133,7 +1120,7 @@ body .nav .nav-menu li a {
 
 #footer-2 {
     text-align: center;
-    background: #222;
+    background: #cecece;
     color: white;
     max-width: 100%;
     width: 100%;
@@ -1143,6 +1130,7 @@ body .nav .nav-menu li a {
     margin: 0 2px;
     padding: 7px 0;
     font-size: 16px;
+    color: #222;
 }
 
 #footer-2 p .fa-heart {
@@ -1150,11 +1138,7 @@ body .nav .nav-menu li a {
 }
 
 #footer-2 p .fa-code {
-    color: chartreuse;
-}
-
-#footer-2 p .fa-headphones {
-    color: #3674f7;
+    color: dodgerblue;
 }
 
 #footer-2 p .fa-moon-o {
@@ -1167,7 +1151,7 @@ body .nav .nav-menu li a {
 }
 
 #footer-2 p a:hover {
-    color: white;
+    color: #444;
 }
 
 /* Alert Notification Styling */
@@ -1407,6 +1391,8 @@ body #myBtn {
 	}
 
 	#about .bio-1 {
+        max-width: 80%;
+        width: 75%;
 		padding: 10px;
         font-size: 15px;
 	}
@@ -1477,9 +1463,11 @@ body #myBtn {
         width: 320px;
         height: 230px;
         padding: 30px 3px;
-    }
-    
-    #services #some-skills .my-knowledge {
+    }   
+}
+
+@media screen and (min-width: 540px) {
+    #some-skills .my-knowledge {
          display: -webkit-flex;
          display: flex;
          -webkit-flex-direction: row;
@@ -1532,7 +1520,7 @@ body #myBtn {
 
 @media screen and (max-height: 630px) {
     #contact {
-        padding: 70px 0;
+        padding: 100px 0;
     }
     
     #contact .hire-contact {
@@ -1544,7 +1532,7 @@ body #myBtn {
 
 @media screen and (min-width: 790px) {
     #footer-1 {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
     
     #footer-1 div {
