@@ -14,8 +14,9 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 
 1.2v: Second Update to the Site, Fixed Portfolio Buttons Issue, Made some small Bug Fixes and Changes.
 
-1.3v: Third Update to the site, Changed some colors and layout redesigns. Some Buttons Style Changes. Small Footer Changes.
+1.3v: Third Update to the Site, Changed some colors and layout redesigns. Some Buttons Style Changes. Small Footer Changes.
 
+1.4v: Fourth Update to the Site, Added Intro Loader Animation while the Page loads and Animated some Elements on Scroll.
 
 ## Feedback:
 
