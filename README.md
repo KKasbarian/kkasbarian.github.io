@@ -6,6 +6,8 @@ The 1.2 Version is Up and Running, But It'll be Updated With New Contents, Proje
 
 My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/)
 
+*Note*: A Blog Coming Not-So-Soon!
+
 ## Versions and Changes:
 
 1.0v: Initial Release, with lots of issues and bugs.
