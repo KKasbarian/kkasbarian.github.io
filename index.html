@@ -38,14 +38,7 @@
 
 <!-- Loading Animation Section -->
 
-<div id="loader" class="introLoading"></div>
-
-<!-- Alert Notification Section -->
-    
-<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  Welcome. This is the <strong>1.4</strong> version of my Portfolio, so expect it to be updated every once in a while with more content, re-designs etc.. Thanks for checking my <strong>Portfolio!!</strong>
-</div>
+<div id="loader" class="introLoading" style="z-index: 999999999;"></div>
     
 <!--- Navigation Section -->
 
@@ -278,7 +271,7 @@
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 
 <script>
-    $(document).on('ready', function() {
+    /*$(document).on('ready', function() {
     $("#loader").introLoader({
         animation: {
             name: 'lettersLoader',
@@ -293,6 +286,21 @@
                 loaderText: 'Welcome to my Portfolio!', 
                 lettersDelayTime: 0,
                 preventScroll: true
+            }
+        }
+    });
+});*/
+    
+$(document).ready(function() {
+    $("#loader").introLoader({
+        animation: {
+            name: 'counterLoader',
+            options: {
+                ease: "easeOutSine",
+                style: 'dark',
+                animationTime: 2000,
+                exitTime: 600,
+                exitFx: 'slideUp'
             }
         }
     });

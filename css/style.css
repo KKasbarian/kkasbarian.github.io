@@ -1154,51 +1154,6 @@ body .nav .nav-menu li a {
     color: #444;
 }
 
-/* Alert Notification Styling */
-
-.alert {
-    position: fixed;
-    opacity: 0.91;
-    z-index: 999999999;
-    padding: 21px;
-    height: 54px;
-    background-color: #0b93ee;
-    color: white;
-    text-align: center;
-    font-size: 22px;
-}
-
-.closebtn {
-    margin-left: 35px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 32px;
-    line-height: 20px;
-    cursor: pointer;
-}
-
-.closebtn:hover {
-    color: black;
-}
-
-@media screen and (max-width: 855px) {
-    .alert {
-        font-size: 17px;
-        height: 80px;
-    }
-    
-    .closebtn {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .alert {
-        height: 120px;
-    }
-}
-
 /* Floating social icons Styling */
 
 #float-social {
