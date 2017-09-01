@@ -2,7 +2,7 @@
 
 This Is My Official Portfolio Website, Where You'll Find My Portfolio, Works, Websites and More...
 
-The 1.2 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
+The 1.4 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
 
 My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/)
 
