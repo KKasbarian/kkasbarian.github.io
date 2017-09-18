@@ -155,7 +155,6 @@
 
             
 <!-- Portfolio Section -->
-    <!------------- Content will be added Soon!! ----------->
         
 <div id="portfolio" class="fade-in">
     <h1>My Portfolio:</h1><hr class="hr-line">
@@ -199,16 +198,19 @@
 <!-- Contact Section -->
         
 <div id="contact" class="fade-in">
-    <div id="forms" class="animated wow slideInDown">
+    <div id="forms">
         <h1>Hire Me</h1><hr class="hr-line">
         <p class="hire-contact">If you want me to make a good site for you, design a unique logo, get my CV, talk about Android, Cars or Universe, the answer is 42 or just say Hi, shoot me an email below:</p>
-        <h6>P.S: All Fields Required!</h6>
-        <h6>P.P.S: Spam-Free Please!</h6>
-            <form action="https://formspree.io/kourkenk@outlook.com" method="post">
+        <h6>P.S: All Fields Required! Spam-Free Please!</h6>
+            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbySzom4kJVSFwVvjVaEyxQpHHBztfND3xnWhr4zHtrLx_TLNAoR/exec">
+                <!--Hidden Inpit to prevent Spam-->
+                <label class="sr-only">Keep this field blank</label>
+                <input id="honeypot" type="text" name="honeypot" value="" />
+                <!-- END Spam Prevention -->
                 <input type="text" name="name" id="name" autocomplete="on" placeholder="Your name..." required><br >
                 <input type="email" name="email" id="email" autocomplete="on" placeholder="Your email..." required>
                 <h4>Your email will not be shared with anyone. Ever!</h4>
-                <select name="select" required>
+                <select name="request" required>
                   <option value="select">Select An Option</option>
                   <option value="webpage">One-page Website</option>
                   <option value="website">Multi-page Website</option>
@@ -220,6 +222,12 @@
 		        <input type="submit" class="submit"><a href="#contact" class="smoothScroll"></a>
             </form>
     </div>
+</div>
+
+<!-- Submit Success Message -->
+
+<div id="thankyou_message" style="display: none;">
+    <h2><em>Thanks</em> for sending an email! I'll get back to you within 24 hours!</h2>
 </div>
             
 <!-- Footer Section -->
@@ -321,5 +329,13 @@ $(document).ready(function() {
   ga('send', 'pageview');
 </script>
 
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+<script type="text/javascript">
+    if (validateHuman(data.honeypot)) {
+  return false;
+}
+</>
 </body>
 </html>

@@ -984,6 +984,22 @@ body .nav .nav-menu li a {
     border: none;
 }
 
+#honeypot {
+    display: none; /*makes the field not visible to humans*/
+  }
+
+#thankyou_message {
+    text-align: center;
+    padding: 30px 0;
+    background: #979797;
+    color: #fafafa
+}
+
+#thankyou_message em {
+    color: #000;
+    font-weight: bold;
+}
+
 /* Footers Sections Styling */
 
 #footer-1 {
