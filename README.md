@@ -20,6 +20,8 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 
 1.4v: Fourth Update to the Site, Added Intro Loader Animation while the Page loads and Animated some Elements on Scroll.
 
+1.5v: Fifth Update to the Site, A Huge Update, where I changed the Form Submission Request from Formspree to a better and convenient option which doesn't even need a server or backend to be used. There is also an AJAX Response when a Form is Submitted (So No Redirects) and finally, Spam prevention is (hopefully) there too.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, I'll be glad if you reach out to me on my Socials.
