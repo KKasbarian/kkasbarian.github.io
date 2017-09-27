@@ -514,6 +514,34 @@ body .nav .nav-menu li a {
     opacity: 1;
 }
 
+@media screen and (max-width: 989px) {
+	#intro .request a {
+		font-size: 28px;
+		padding: 4px;
+		margin: 0;
+	}
+
+	#intro .request a:hover {
+		color: white;
+	}
+}
+
+@media screen and (max-width: 1090px) {
+	#intro .request a:hover {
+		opacity: 0.9;
+	}
+}
+
+@media screen and (max-height: 580px) {
+    #intro h1 {
+        font-size: 25px;
+    }
+    
+    #intro .who-iam {
+        font-size: 26px;
+    }
+}
+
 /* About Section Styling */
 
 #about {
@@ -572,6 +600,74 @@ body .nav .nav-menu li a {
 #about button:hover, #about button a:hover {
     border-bottom-color: #787;
     opacity: 1;
+}
+
+@media screen and (max-width: 989px) {
+    #about .flex-about {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+	#about img {
+        order: 0;
+		width: 170px;
+		height: 180px;
+		padding: 10px;
+	}
+
+	#about .bio-1 {
+        max-width: 80%;
+        width: 75%;
+		padding: 10px;
+        font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 990px) {
+	#about img {
+		float: right;
+    	margin-right: 90px;
+    	margin-top: 37px;
+    	width: 300px;
+    	height: 340px;
+	}
+
+	#about button {
+		margin: 40px auto;
+	}
+
+	#about .bio-1 {
+		margin-left: 20px;
+		padding: 20px 40px;
+		width: 600px;
+		font-size: 19px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	#about img {
+		margin-right: 200px;
+		margin-top: 60px;
+		width: 350px;
+		height: 380px;
+	}
+
+	#about .bio-1 {
+		font-size: 25px;
+		padding: 20px 5px 5px 5px;
+	}
+}
+
+@media screen and (max-height: 580px) {
+    #about {
+        padding: 20px 0 50px 0;
+    }
+    
+    #about img {
+        width: 130px;
+        height: 140px;
+        padding: 2px;
+    }
 }
 
 /* Services Section Styling */
@@ -639,9 +735,51 @@ body .nav .nav-menu li a {
     padding-top: 15px;
 }
 
+#services .resume {
+    display:block;
+	padding: 11px 0;
+	border-radius: 2px;
+	background: chartreuse;
+    margin: 40px auto 10px auto;
+}
+
+#services .resume a {
+	text-decoration: none;
+	font-size: 17px;
+    padding: 10px 15px;
+	font-family: arial, sans-serif;
+	color: #fff;
+	background: chartreuse;
+}
+
+#services .resume:hover, #services .resume a:hover {
+    background: #7fff53;
+    color: white;
+}
+
+@media screen and (min-width: 810px) {
+    #services #all-services {
+       display: -webkit-flex;
+       display: flex;
+       -webkit-flex-direction: row;
+       flex-direction: row;
+       -webkit-align-items: center;
+       align-items: center;
+       -webkit-justify-content: center;
+       justify-content: center;
+    }
+    
+    #services #all-services section {
+        width: 320px;
+        height: 230px;
+        padding: 30px 3px;
+    }   
+}
+
+/* Skills Section Styling */
+
 #some-skills {
     text-align: center;
-    margin: 0 auto;
     padding: 30px 0;
     background: #f2f1ef;
 }
@@ -652,31 +790,41 @@ body .nav .nav-menu li a {
     padding: 0 0 10px 0;
 }
 
-#some-skills h4 {
-    text-align: left;
-    font-size: 30px;
-    padding: 6px 0 6px 7px;
-    margin: 0 0 17px 0;
-    border-left: 2px solid chartreuse;
+#some-skills .my-knowledge {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 110px;
 }
 
-#some-skills .my-knowledge {
-    display: -webkit-flex;
-   display: flex;
-   -webkit-justify-content: center;
-   justify-content: center;
-   -webkit-flex-flow: column wrap;
-   flex-flow: column wrap;
+#some-skills .my-knowledge h4 {
+    font-size: 30px;
+    margin: 10px 0 15px 0;
+}
+
+#some-skills .my-knowledge section {
+    text-align: center;
+    width: 32%;
 }
 
 #some-skills .my-knowledge i {
-    margin: 20px;
-    padding: 10px;
-    font-size: 110px;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 80px;
     -webkit-transition: all 0.7s;
-       -moz-transition: all 0.7s;
-         -o-transition: all 0.7s;
-            transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+#some-skills .my-knowledge i:hover {
+    background: white;
+    box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 #some-skills .my-knowledge i.t-edit {
@@ -706,41 +854,14 @@ body .nav .nav-menu li a {
     color: #fdd20a;
 }
 
-#some-skills .my-knowledge i:hover {
-    background: white;
-    box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.3);
-    -webkit-transform: scale(1.1);
-       -moz-transform: scale(1.1);
-         -o-transform: scale(1.1);
-            transform: scale(1.1);
-}
-
-#services .resume {
-    display:block;
-	padding: 11px 0;
-	border-radius: 2px;
-	background: chartreuse;
-    margin: 40px auto 10px auto;
-}
-
-#services .resume a {
-	text-decoration: none;
-	font-size: 17px;
-    padding: 10px 15px;
-	font-family: arial, sans-serif;
-	color: #fff;
-	background: chartreuse;
-}
-
-#services .resume:hover, #services .resume a:hover {
-    background: #7fff53;
-    color: white;
+#some-skills .my-knowledge .slack, #some-skills .my-knowledge .trello, #some-skills .my-knowledge .vs {
+    font-size: 140px;
 }
 
 #some-skills .portfolio {
 	text-align: center;
 	padding: 16px;
-    margin: 10px auto;
+    margin: 0 auto;
     font-size: 24px;
 	border-radius: 7px;
     background: none;
@@ -765,6 +886,17 @@ body .nav .nav-menu li a {
 #some-skills .portfolio a:hover {
     border-bottom-color: #787;
     opacity: 1;
+}
+
+@media screen and (max-width: 540px) {
+    #some-skills .my-knowledge {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #some-skills .my-knowledge section {
+        width: 100%;
+    }
 }
 
 /* Portfolio Section Styling */
@@ -879,6 +1011,24 @@ body .nav .nav-menu li a {
     color: #999;
 }
 
+@media screen and (max-width: 668px) {
+    #portfolio .one-third {
+		width: 100%;
+		margin: 4% 0;
+	}
+    
+    #portfolio img {
+		width: 80%;
+        height: auto;
+        margin: 0 auto;
+	}
+    
+    #portfolio .flex-btn button a {
+        font-size: 16px;
+        padding: 0 3px;
+    }
+}
+
 /* Contact Us Section Styling */
 
 #contact {
@@ -985,7 +1135,7 @@ body .nav .nav-menu li a {
 }
 
 #honeypot {
-    display: none; /*makes the field not visible to humans*/
+    display: none; /* makes the field not visible to humans */
   }
 
 #thankyou_message {
@@ -998,6 +1148,33 @@ body .nav .nav-menu li a {
 #thankyou_message em {
     color: #000;
     font-weight: bold;
+}
+
+@media screen and (min-width: 910px) {
+    #contact {
+        height: 100%;
+    }
+    
+    #contact p {
+        width: 600px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    #contact h6 {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-height: 630px) {
+    #contact {
+        padding: 100px 0;
+    }
+    
+    #contact .hire-contact {
+        font-size: 17px;
+    }
 }
 
 /* Footers Sections Styling */
@@ -1095,9 +1272,9 @@ body .nav .nav-menu li a {
 }
 
 #footer-1 .right-footer .socials-footer li {
-    padding: 1px;
+    padding: 4px;
     margin: 4px 10px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #footer-1 .fa {
@@ -1130,6 +1307,22 @@ body .nav .nav-menu li a {
 
 #footer-1 .fa-twitter {
     background: #125688;
+    color: white;
+}
+
+#footer-1 .fa-free-code-camp {
+    background: #006401;
+    color: white;
+    padding-left: 6px;
+}
+
+#footer-1 .fa-medium {
+    background: #14c767;
+    color: white;
+}
+
+#footer-1 .fa-codepen {
+    background: #000;
     color: white;
 }
 
@@ -1168,6 +1361,53 @@ body .nav .nav-menu li a {
 
 #footer-2 p a:hover {
     color: #444;
+}
+
+@media screen and (min-width: 790px) {
+    #footer-1 {
+        padding-bottom: 10px;
+    }
+    
+    #footer-1 div {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    
+    .footer-hr {
+        display: none;
+    }
+    
+    #footer-1 .left-footer {
+        width: 30%;
+        float: left;
+    }
+    
+    #footer-1 .middle-footer {
+        width: 40%;
+    }
+    
+    #footer-1 .right-footer {
+        width: 30%;
+        float: right;
+    }
+    
+    #footer-1 .right-footer h2 {
+        font-size: 21px;
+    }
+    
+    #footer-1 .right-footer li i {
+        font-size: 28px;
+    }
+    
+    #footer-2 p {
+        font-size: 19px;
+    }
 }
 
 /* Floating social icons Styling */
@@ -1313,241 +1553,6 @@ body #myBtn {
 		height: 26px;
 	}
 }
-
-/***** Media Queries and Responsive Section *****/
-
-/* Intro Responsive Section */
-
-@media screen and (max-width: 989px) {
-	#intro .request a {
-		font-size: 28px;
-		padding: 4px;
-		margin: 0;
-	}
-
-	#intro .request a:hover {
-		color: white;
-	}
-}
-
-@media screen and (max-width: 1090px) {
-	#intro .request a:hover {
-		opacity: 0.9;
-	}
-}
-
-@media screen and (max-height: 580px) {
-    #intro h1 {
-        font-size: 25px;
-    }
-    
-    #intro .who-iam {
-        font-size: 26px;
-    }
-}
-
-/* About Responsive Section */
-
-@media screen and (max-width: 989px) {
-    #about .flex-about {
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-	#about img {
-        order: 0;
-		width: 170px;
-		height: 180px;
-		padding: 10px;
-	}
-
-	#about .bio-1 {
-        max-width: 80%;
-        width: 75%;
-		padding: 10px;
-        font-size: 15px;
-	}
-}
-
-@media screen and (min-width: 990px) {
-	#about img {
-		float: right;
-    	margin-right: 90px;
-    	margin-top: 37px;
-    	width: 300px;
-    	height: 340px;
-	}
-
-	#about button {
-		margin: 40px auto;
-	}
-
-	#about .bio-1 {
-		margin-left: 20px;
-		padding: 20px 40px;
-		width: 600px;
-		font-size: 19px;
-	}
-}
-
-@media screen and (min-width: 1300px) {
-	#about img {
-		margin-right: 200px;
-		margin-top: 60px;
-		width: 350px;
-		height: 380px;
-	}
-
-	#about .bio-1 {
-		font-size: 25px;
-		padding: 20px 5px 5px 5px;
-	}
-}
-
-@media screen and (max-height: 580px) {
-    #about {
-        padding: 20px 0 50px 0;
-    }
-    
-    #about img {
-        width: 130px;
-        height: 140px;
-        padding: 2px;
-    }
-}
-
-/* Services Responsive Section */
-
-@media screen and (min-width: 810px) {
-    #services #all-services {
-       display: -webkit-flex;
-       display: flex;
-       -webkit-flex-direction: row /* works with row or column */
-       flex-direction: row;
-       -webkit-align-items: center;
-       align-items: center;
-       -webkit-justify-content: center;
-       justify-content: center;
-    }
-    
-    #services #all-services section {
-        width: 320px;
-        height: 230px;
-        padding: 30px 3px;
-    }   
-}
-
-@media screen and (min-width: 540px) {
-    #some-skills .my-knowledge {
-         display: -webkit-flex;
-         display: flex;
-         -webkit-flex-direction: row;
-         flex-direction: row;
-         -webkit-align-items: center;
-         align-items: center;
-         -webkit-justify-content: center;
-         justify-content: center;
-    }
-}
-
-/* Portfolio Responsive Section */
-
-@media screen and (max-width: 668px) {
-    #portfolio .one-third {
-		width: 100%;
-		margin: 4% 0;
-	}
-    
-    #portfolio img {
-		width: 80%;
-        height: auto;
-        margin: 0 auto;
-	}
-    
-    #portfolio .flex-btn button a {
-        font-size: 16px;
-        padding: 0 3px;
-    }
-}
-
-/* Contact Responsive Section */
-
-@media screen and (min-width: 910px) {
-    #contact {
-        height: 100%;
-    }
-    
-    #contact p {
-        width: 600px;
-        margin: 10px auto;
-        text-align: center;
-    }
-    
-    #contact h6 {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-height: 630px) {
-    #contact {
-        padding: 100px 0;
-    }
-    
-    #contact .hire-contact {
-        font-size: 17px;
-    }
-}
-
-/* Footers Responsive Section */
-
-@media screen and (min-width: 790px) {
-    #footer-1 {
-        padding-bottom: 10px;
-    }
-    
-    #footer-1 div {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        -webkit-align-items: center;
-        align-items: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-    }
-    
-    .footer-hr {
-        display: none;
-    }
-    
-    #footer-1 .left-footer {
-        width: 30%;
-        float: left;
-    }
-    
-    #footer-1 .middle-footer {
-        width: 40%;
-    }
-    
-    #footer-1 .right-footer {
-        width: 30%;
-        float: right;
-    }
-    
-    #footer-1 .right-footer h2 {
-        font-size: 21px;
-    }
-    
-    #footer-1 .right-footer li i {
-        font-size: 28px;
-    }
-    
-    #footer-2 p {
-        font-size: 19px;
-    }
-}
-
 
     /*--------------- Privacy Policy Page Styling ---------------*/
 
@@ -1798,21 +1803,3 @@ body #myBtn {
 #random button:focus {
     background: #3bc266;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
