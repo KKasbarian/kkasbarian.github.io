@@ -1363,6 +1363,12 @@ body .nav .nav-menu li a {
     color: #444;
 }
 
+#footer-2 .last-update {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    background: #677172;
+}
+
 @media screen and (min-width: 790px) {
     #footer-1 {
         padding-bottom: 10px;
