@@ -2,7 +2,7 @@
 
 This Is My Official Portfolio Website, Where You'll Find My Portfolio, Works, Websites and More...
 
-The 1.5 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
+The 1.6 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
 
 My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/)
 
@@ -21,6 +21,8 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 1.4v: Fourth Update to the Site, Added Intro Loader Animation while the Page loads and Animated some Elements on Scroll.
 
 1.5v: Fifth Update to the Site, A Huge Update, where I changed the Form Submission Request from Formspree to a better and convenient option which doesn't even need a server or backend to be used. There is also an AJAX Response when a Form is Submitted (So No Redirects) and Spam prevention is (hopefully) there too. Finally, I deleted the Local Saved Font Awesome Folder and instead added an External Link in my HTML.
+
+1.6v: Sixth Update to the Site, I changed the Layout of the 'Some Skills' section from stacking horizontally to stacking vertically of the icons. Changed the text of the 'About' section and made it more professional. Finally, I added few more social links on the Footer.
 
 ## Feedback:
 
