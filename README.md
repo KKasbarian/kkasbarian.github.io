@@ -24,7 +24,7 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 
 1.6v: Sixth Update to the Site, I changed the Layout of the 'Some Skills' section from stacking horizontally to stacking vertically of the icons. Changed the text of the 'About' section and made it more professional. Finally, I added few more social links on the Footer.
 
-1.7: Seventh and a small update, I added a "Last Updated" section at the bottom of the page.
+1.7: Seventh and a small update, I added a "Last Updated" section at the bottom of the page and made the year at the footer change automatically.
 
 ## Feedback:
 
