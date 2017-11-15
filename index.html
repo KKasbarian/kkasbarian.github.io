@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Necessary Characters and Viewport Tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Kourken Kasbarian - Portfolio</title>
-	<meta name="description" content="Kourken Kasbarian: My Personal Portfolio that has all my works and the skills that I know, check it out!">
-    <meta name="keywords" content="Kourken, Kasbarian, Kourken Kasbarian, Yerevan, Armenia, Kourken Kasbarian Portfolio, Portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Information for SEO Purposes -->
+	<title>Kourken Kasbarian - Portfolio | Front-End Web Developer</title>
+	<meta name="description" content="Kourken Kasbarian: My Personal Portfolio site that has all my works and the skills that I know, check it out and contact me if you have any requests.">
+    <meta name="keywords" content="Kourken, Kasbarian, Kourken Kasbarian, Armenia, Kourken Kasbarian Portfolio, Portfolio, Front-End Web Developer, Web Developer, Front-End">
+    <meta name="url" content="https://kkasbarian.github.io/">
+    <meta name="copyright" content="kourkenkasbarian">
+
+    <!-- Images and Aestetchics -->
     <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
-    <link rel="image_src" href="images/code.jpg">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="image_src" href="images/website-mockup.jpg">
+    <meta name="theme-color" content="#1058a4">
+
+    <!-- Fonts and Icons Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/introLoader.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="js/typed/js/typed.js"></script>
-    <script src="js/wow.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     
     <!-- Facebook Summary Card -->
-    <meta property="og:url" content="https://kkasbarian.github.io/portfolio/">
+    <meta property="og:url" content="https://kkasbarian.github.io/">
     <meta property="og:title" content="Kourken kasbarian - Portfolio">
     <meta property="og:description" content="Kourken Kasbarian: My Personal Portfolio that has all my works and the skills that I know, check it out!">
-    <meta property="og:image" content="images/code.jpg">
-    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image" content="images/bg.jpg">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="536">
     <!-- Twitter Summary Card with Large Image -->
@@ -30,37 +41,28 @@
     <meta name="twitter:creator" content="@kkasbarian">
     <meta name="twitter:title" content="Kourken kasbarian - Portfolio">
     <meta name="twitter:description" content="Kourken Kasbarian: My Personal Portfolio that has all my works and the skills that I know, check it out!">
-    <meta name="twitter:image" content="images/code.jpg">
+    <meta name="twitter:image" content="images/bg.jpg">
+
+    <!-- Google reCAPTCHA -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!-- JS Main File and JS Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
+    <script src="js/jquery.introLoader.pack.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+
 </head>
 <body>
-
-<!-- Loading Animation Section -->
+    
+<!-- Intro Loading Animation -->
 
 <div id="loader" class="introLoading" style="z-index: 999999999;"></div>
-    
-<!--- Navigation Section -->
 
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/main.js"></script>
-<a name="home"></a>
-<div class="nav-outer">
-    <nav class="navigation">
-        <div class="logo"><a href="index.html">
-            <img src="images/logo.png" alt="logo" width="60" height="60"></a>
-        </div>
-        <div class='nav' nav-menu-style="yoga">
-            <ul class="nav-menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-   
-<!-- Floating Social Buttons Section -->    
+<!-- Floating Social Buttons -->    
 
 <div id="float-social" class="fade-in">
     <ul>
@@ -69,270 +71,264 @@
         <li><a href="https://twitter.com/KourkenK" target="_blank"><i class="fa fa-twitter"></i></a></li>
     </ul>
 </div>
-    
-<!-- Intro Section -->
 
-<div id="intro" class="fade-in">
-   <h1 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="3s">Hi, I'm Kourken Kasbarian</h1>
+<!--********** Main Banner **********-->
+
+<section id="banner-container">
+    
+<!-- Navigation Bar for small devices -->
+
+<nav role="navigation" id="navigation">
+    <input class="trigger" type="checkbox" id="mainNavButton">
+    <label for="mainNavButton"><a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a></label>
+    <ul>
+        <li><a href="#" data-scroll>Home</a></li>
+        <li><a href="#about" data-scroll>About</a></li>
+        <li><a href="#services" data-scroll>Services</a></li>
+        <li><a href="#portfolio" data-scroll>Portfolio</a></li>
+        <li><a href="#contact" data-scroll>Hire Me</a></li>
+    </ul>
+</nav>
+
+<!-- Navigation Banner for medium and big devices -->
+
+<section id="nav">
+    <div>
+        <a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+    </div>
+    <div class="scroll-nav">
+        <ul>
+            <li><a href="#" data-scroll>Home</a></li>
+            <li><a href="#about" data-scroll>About</a></li>
+            <li><a href="#services" data-scroll>Services</a></li>
+            <li><a href="#portfolio" data-scroll>Portfolio</a></li>
+            <li><a href="#contact" data-scroll>Hire Me</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Banner Section -->
+
+<section id="banner" class="fade-in">
+    <h1 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1.5s">Hi, I'm Kourken Kasbarian</h1>
     <div class="typing">
-        <span class="im-a">I'm a </span><span class="element"></span><span class="typed-cursor"></span>
-    </div> 
-    <p class="request animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="4s"><a href="#contact">Hire me</a>
-    </p>
-    <p class="who-iam"><a href="#about">Who Am I <span class="arrow">&#8595;</span></a>
-    </p>
-</div>
+        <span class="autotype">I'm a </span><span class="type-element"></span><span class="typed-cursor"></span>
+    </div>
+    <ul class="banner-socials">
+        <li><a href="https://www.linkedin.com/in/kourken-kasbarian/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/KKasbarian"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/KourkenK"><i class="fa fa-twitter"></i></a></li>
+    </ul>
+    <a href="#contact" data-scroll class="hire animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">Hire me</a>
+    <a href="#about" data-scroll class="down-arrow"><i class="fa fa-arrow-circle-down"></i></a></p>
+</section>
+
+</section> <!-- End Main Banner -->
             
 <!-- About Section -->
 
-<div id="about" class="fade-in">
-    <h1 class="header-1">About me:</h1><hr class="hr-line">
+<section id="about" class="fade-in">
+    <h1>About me</h1>
     <div class="flex-about">
-    <img class="animated wow slideInRight" src="images/me.jpg" alt="Kourken Kasbarian's picture" width="200" height="300">
-    <p class="bio-1 animated wow slideInLeft">Kourken is a Front-End Web Developer and Graphic (Logo) Designer from Yerevan, Armenia. He loves to create and build websites which are mobile-first, responsive, minimal and user-friendly. He even used his skills to build his portfolio! Also, he has a knowledge of graphic and logo design, so he can designs some good, minimal, eye-catching and trendy logos for different projects, brands, etc.<br><br>
-    While he isn't debugging some code or using the pen tool in AI, he loves to hang out with his friends, playing video games, listening to music, photographing (Seperate portfolio would be coming not-so-soon), eating pizzas etc.</p>
+        <div>
+            <img class="animated wow slideInLeft" src="images/me.jpg" title="Kourken Kasbarian" alt="Kourken Kasbarian's picture">
+        </div>
+        <div>
+            <p class="animated wow slideInRight">My name is Kourken Kasbarian, I'm an undergraduate IT student and a Front-End Web Developer from Armenia. I love to create and build websites which are mobile-first ready, fully responsive, minimal, SEO friendly and at the same time attractive and user-friendly for individuals, startups, businesses etc. I built my portfolio site from the grounds up by using all the skills that I know. I also have some fairly basic knowledge of Web/Graphic Design. I'm always motivated and have the desire to learn more.<br><br>
+            While I'm not debugging some code or trying to position elements right, I love to hang out with my friends, play video games, listen to music, photograph-ing, eating pizzas etc.</p>
+        </div>
     </div>
-    <button type="button" name="button"><a href="#services">Services &amp; Skills &#8595;</a></button>
-</div>
+    <a href="#services" data-scroll>Services &amp; Skills &#8595;</a></button>
+</section>
             
-<!-- Services and Skills Section -->
+<!-- Services Section -->
         
-<div id="services" class="fade-in">
-    <h1 class="header-2">Services:</h1><hr class="hr-line">
-    <p class="service">What i offer, services, skills etc:</p>
-    <div id="all-services">
-        <section class="animated wow slideInLeft">
-            <i class="fa fa-mobile" aria-hidden="true"></i>
-            <h3>Responsive Websites</h3>
-            <p>Responsive, User-Friendly are my goals to make a website.</p>
-        </section>
-        <section class="animated wow slideInLeft">
-            <i class="fa fa-code" aria-hidden="true"></i>
-            <h3>Clean and clear code</h3>
+<section id="services">
+    <h1>Services</h1>
+    <div class="flex-services">
+        <div class="animated wow slideInLeft">
+            <i class="fa fa-mobile"></i>
+            <h2>Responsive Websites</h2>
+            <p>Responsive, User and SEO Friendly are my goals to make a website.</p>
+        </div>
+        <div class="animated wow slideInLeft">
+            <i class="fa fa-code"></i>
+            <h2>Clean and clear code</h2>
             <p>A sleek and easy-to-read code, so you don't need to worry about it!</p>
-        </section>
-        <section class="animated wow slideInRight">
-            <i class="fa fa-pencil" aria-hidden="true"></i>
-            <h3>Graphic Design & Logo Design</h3>
-            <p>Minimal and elegant logos which are built to your needs.</p>
-        </section>
-        <section class="animated wow slideInRight">
-            <i class="fa fa-comments" aria-hidden="true"></i>
-            <h3>Good and Fast Communication</h3>
-            <p>I reply to the emails asap and in less than a day</p>
-        </section>  
+        </div>
+        <div class="animated wow slideInRight">
+            <i class="fa fa-users"></i>
+            <h2>Collaborative Skills</h2>
+            <p>Always-learning, hard-working and meeting the deadlines are a must.</p>
+        </div>
+        <div class="animated wow slideInRight">
+            <i class="fa fa-comments"></i>
+            <h2>Fast Communication</h2>
+            <p>I'm always available, so I reply to all emails in less than 24 hours. </p>
+        </div>
     </div>
-    <button type="button" name="resume" class="resume"><a href="#services">My Resume <span>&#9944; </span></a></button><br>
-</div>
-    
-<div id="some-skills">
-    <h2>Skills:</h2><hr class="hr-line">
-    <div class="my-knowledge">
-        <section class="animated wow slideInUp">
-            <h4>Front End:</h4>
-            <i class="devicon-html5-plain-wordmark colored html"></i><br>
-            <i class="devicon-css3-plain-wordmark colored css"></i><br>
-            <i class="devicon-javascript-plain colored js"></i><br>
-            <i class="devicon-jquery-plain-wordmark colored jquery"></i><br>
-            <i class="devicon-bootstrap-plain-wordmark colored bootstrap"></i><br>
-            <i class="devicon-sass-original colored sass"></i><br>
-        </section>
-        <section class="animated wow slideInUp">
-                <h4>Graphic Design:</h4>
-            <i class="devicon-photoshop-plain colored photoshop"></i><br>
-            <i class="devicon-illustrator-plain colored illustrator"></i><br>
-        </section>
-        <section class="animated wow slideInUp">
-                <h4>Tools:</h4>
-            <i class="devicon-github-plain-wordmark colored github"></i><br>
-            <i class="devicon-chrome-plain-wordmark colored chrome"></i><br>
-            <i class="devicon-slack-plain-wordmark colored slack"></i><br>
-            <i class="devicon-trello-plain-wordmark colored trello"></i><br>
-            <i class="devicon-visualstudio-plain-wordmark colored vs"></i><br>                               
-            <i class="devicon-devicon-plain t-edit"></i><p class="t-editor">Text Editors</p><br>
-        </section>
-    </div>
-    <button type="button" name="portfolio" class="portfolio"><a href="#portfolio">My Portfolio &#8595;</a></button>
-</div>
+    <a href="#services" data-scroll>My Resume <span>&#9944;</span></a>
+</section>
 
-            
+<!-- Skills Section -->
+    
+<section id="skills">
+    <h1>Skills</h1>
+    <h2>Front End:</h2>
+    <div class="flex-skills animated wow slideInUp">
+        <i class="devicon-html5-plain-wordmark colored html"></i><br>
+        <i class="devicon-css3-plain-wordmark colored css"></i><br>
+        <i class="devicon-javascript-plain colored js"></i><br>
+        <i class="devicon-jquery-plain-wordmark colored jquery"></i><br>
+        <i class="devicon-bootstrap-plain colored bootstrap"></i><br>
+        <i class="devicon-sass-original colored sass"></i><br>
+    </div>
+    <h2>Graphic Design:</h2>
+    <div class="flex-skills animated wow slideInUp">
+        <i class="devicon-photoshop-plain colored photoshop"></i><br>
+        <i class="devicon-illustrator-plain colored illustrator"></i><br>
+    </div>
+    <h2>Tools:</h2>
+    <div class="flex-skills animated wow slideInUp">
+        <i class="devicon-github-plain colored github"></i><br>
+        <i class="devicon-visualstudio-plain colored"></i>
+        <i class="devicon-chrome-plain colored chrome"></i><br>
+        <i class="devicon-google-plain colored"></i>
+        <i class="devicon-slack-plain colored"></i>
+        <i class="devicon-trello-plain colored"></i>
+    </div>
+    <a href="#portfolio" data-scroll>My Portfolio &#8595;</a>
+</section>
+
 <!-- Portfolio Section -->
         
-<div id="portfolio" class="fade-in">
-    <h1>My Portfolio:</h1><hr class="hr-line">
-    <p class="my-works">Check out my projects, works and more:</p>
-    <section class="one-third">
-        <a href="https://kkasbarian.github.io/30Days30Sites/"><img src="images/30d30s.png" alt="30Days30Sites Projects"></a>
-        <a href="https://kkasbarian.github.io/30Days30Sites/"><h3>30Days30Sites</h3></a>
-        <p>Check out my projects..</p>
-    </section>
-    <section class="one-third">
-        <a href="#"><img src="images/coming-soon.jpg" alt="Project Coming Soon"></a>
-        <h3>Lorem Ipsum..</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-    </section>
-    <section class="one-third">
-        <a href="#"><img src="images/coming-soon.jpg" alt="Project Coming Soon"></a>
-        <h3>Lorem Ipsum..</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-    </section>
-    <section class="one-third">
-        <a href="#"><img src="images/coming-soon.jpg" alt="Project Coming Soon"></a>
-        <h3>Lorem Ipsum..</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    </section>
-    <section class="one-third">
-        <a href="#"><img src="images/coming-soon.jpg" alt="Project Coming Soon"></a>
-        <h3>Lorem Ipsum..</h3>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-    </section>
-    <section class="one-third">
-        <a href="#"><img src="images/gd.jpg" alt="Graphic Design"></a>
-        <h3>Graphic Design</h3>
-        <p>Check out my Projects of Graphic and Logo Design..</p>
-    </section>
-    <div class="flex-btn">
-        <button type="button" name="works" class="works"><a href="#portfolio">Check More</a></button>
-        <button type="button" name="contact" class="contact"><a href="#contact">Hire Me</a></button>
+<section id="portfolio">
+    <h1>Portfolio</h1>
+    <div class="flex-portfolio">
+        <div>
+            <a href="https://kkasbarian.github.io/30Days30Sites/"><img src="images/30d30s.png" title="30Days30Sites Projects" alt="30Days30Sites Projects"></a>
+            <a href="https://kkasbarian.github.io/30Days30Sites/"><h2>30Days30Sites</h2></a>
+            <p>Check out all my projects..</p>
+        </div>
+        <div>
+            <a href="#portfolio" data-scroll><img src="images/coming-soon.jpg" title="Blog Coming Soon" alt="Project Coming Soon"></a>
+            <h2>My Blog</h2>
+            <p>I'll build a personal blog for myself from scratch.</p>
+        </div>
+        <div>
+            <a href="#portfolio" data-scroll><img src="images/coming-soon.jpg" title="Projects Coming Soon" alt="Project Coming Soon"></a>
+            <h2>Customer Website</h2>
+            <p>I'll start to build websites as a freelancer too.</p>
+        </div>
     </div>
-</div>
+    <a href="#contact">Hire Me</a>
+</section>
             
 <!-- Contact Section -->
         
-<div id="contact" class="fade-in">
-    <div id="forms">
-        <h1>Hire Me</h1><hr class="hr-line">
-        <p class="hire-contact">If you want me to make a good site for you, design a logo, get my CV, talk about Android or the universe or just say "hi", shoot me an email below:</p>
-        <h6>P.S: All Fields Required! Spam-Free Please!</h6>
-            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbySzom4kJVSFwVvjVaEyxQpHHBztfND3xnWhr4zHtrLx_TLNAoR/exec">
-                <!--Hidden Inpit to prevent Spam-->
-                <label class="sr-only">Keep this field blank</label>
-                <input id="honeypot" type="text" name="honeypot" value="">
-                <!-- END Spam Prevention -->
-                <input type="text" name="name" id="name" autocomplete="on" placeholder="Your name..." required><br>
-                <input type="email" name="email" id="email" autocomplete="on" placeholder="Your email..." required>
-                <h4>Your email will not be shared with anyone. Ever!</h4>
-                <select name="request" required>
-                  <option value="select">Select An Option</option>
-                  <option value="webpage">One-page Website</option>
-                  <option value="website">Multi-page Website</option>
-                  <option value="logo">Logo</option>
-                  <option value="other">Others</option>
-                </select>
-                <input type="text" name="subject" id="subject" placeholder="Subject..." required><br >
-                <textarea name="message" id="message" placeholder="Your valuable message here. Add as much details about the project as possible!!" required></textarea><br >
-		        <input type="submit" class="submit"><a href="#contact"></a>
-            </form>
+<div id="contact">
+    <h1>Hire Me</h1>
+    <p>If you want me to make a responsive site for you or redesign your current website, get my CV, appoint a meeting or an interview for job opportunity, shoot me an email below and I'll get back to you ASAP :</p>
+    <div class="flex-contact">
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbySzom4kJVSFwVvjVaEyxQpHHBztfND3xnWhr4zHtrLx_TLNAoR/exec">
+            <!--Hidden Input to prevent Spam-->
+            <label class="sr-only">Keep this field blank</label>
+            <input id="honeypot" type="text" name="honeypot" value=""><br>
+            <!-- END Spam Prevention -->
+            <input type="text" name="name" id="name" autocomplete="on" placeholder="Name..." required><br>
+            <input type="email" name="email" id="email" autocomplete="on" placeholder="Email..." required>
+            <h2>Your email will not be shared with anyone.</h2>
+            <select name="request" required>
+                <option value="select">Select An Option</option>
+                <option value="webpage">One-page Website</option>
+                <option value="website">Multi-page Website</option>
+                <option value="mobile-w">Responsive Mobile Website</option>
+                <option value="w-redesign">Website Redesign/Renew</option>
+                <option value="seo">Website SEO</option>
+                <option value="other">Other</option>
+            </select><br>
+            <input type="text" name="subject" id="subject" placeholder="Subject..." required><br>
+            <textarea name="message" id="message" rows="7" placeholder="Your message here. Add as much details about the project as possible!" required></textarea><br>
+            <h2>P.S: All Fields Required!</h2>
+            <div class="captcha">
+                <div class="g-recaptcha" name="captcha" data-sitekey="6Ld5RTgUAAAAAEb7BX4h-egMHndjPpAsFgfs88E1"></div>
+            </div>
+            <a><input type="submit" class="submit"></a>
+        </form>
     </div>
 </div>
 
 <!-- Submit Success Message -->
 
 <div id="thankyou_message" style="display: none;">
-    <h2><em>Thanks</em> for sending an email! I'll get back to you within 24 hours!</h2>
+    <h2><span>Thanks</span> for sending an email! I'll get back to you within 24 hours!</h2>
 </div>
             
 <!-- Footer Section -->
     
-<footer id="footer-1" class="fade-in">
+<footer class="fade-in">
+    <div class="animated wow slideInUp">
+        <a href="index.html"><img src="images/logo.png" title="Logo" alt="Logo"></a>
+        <p>Kourken Kasbarian &copy;</p>
+        <ul class="footer-nav">
+            <li><a href="#" data-scroll>Home</a></li><span>|</span>
+            <li><a href="#about" data-scroll>About</a></li><span>|</span>
+            <li><a href="#services" data-scroll>Services</a></li><span>|</span>
+            <li><a href="#portfolio" data-scroll>Portfolio</a></li><span>|</span>
+            <li><a href="#contact" data-scroll>Contact Me</a></li>
+        </ul>
+        <ul class="site-info">
+            <li><a href="privacy.html">Privacy Policy</a></li><span>|</span>
+            <li><a href="credits.html">Credits</a></li><span>|</span>
+            <li><a href="sitemap.xml">Sitemap</a></li><span>|</span> <!-- Sitemap -->
+            <li><a href="random.html">Random</a></li>
+        </ul>
+    </div>
     <div>
-        <section class="left-footer animated wow slideInUp">
-            <a href="index.html"><img src="images/logo.png" alt="logo" width="150" height="150"></a>
-            <p>Kourken Kasbarian &copy;</p>
-        </section> <hr class="footer-hr">
-        <section class="middle-footer">
-            <ul class="nav-footer">
-                <li><a href="#">Home</a></li><span>|</span>
-                <li><a href="#about">About</a></li><span>|</span>
-                <li><a href="#services">Services</a></li><span>|</span>
-                <li><a href="#portfolio">Portfolio</a></li><span>|</span>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul><br>
-            <ul class="notes">
-                <li><a href="privacy.html">Privacy Policy</a></li><span>|</span>
-                <li><a href="credits.html">Credits</a></li><span>|</span>
-                <li><a href="easter-egg.html">Random</a></li>
-            </ul>
-        </section> <hr class="footer-hr">
-        <section class="right-footer">
-            <h2>My Socials:</h2>
-            <ul class="socials-footer">
-                <li><a href="https://www.linkedin.com/in/kourken-kasbarian/" target="_blank"><i class="fa fa-linkedin animated wow slideInUp"></i></a></li>
-                <li><a href="https://github.com/KKasbarian" target="_blank"><i class="fa fa-github animated wow slideInUp"></i></a></li>
-                <li><a href="https://twitter.com/KourkenK" target="_blank"><i class="fa fa-twitter animated wow slideInUp"></i></a></li>
-                <li><a href="https://www.freecodecamp.org/kourken17" target="_blank"><i class="fa fa-free-code-camp animated wow slideInUp"></i></a></li>
-                <li><a href="https://medium.com/@kourkenkasbarian" target="_blank"><i class="fa fa-medium animated wow slideInUp"></i></a></li>
-                <li><a href="https://codepen.io/Kourken17/" target="_blank"><i class="fa fa-codepen animated wow slideInUp"></i></a></li>
-            </ul>
-        </section>
+        <h2>My Socials:</h2>
+        <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/kourken-kasbarian/" target="_blank"><i class="fa fa-linkedin animated wow slideInUp"></i></a></li>
+            <li><a href="https://github.com/KKasbarian" target="_blank"><i class="fa fa-github animated wow slideInUp"></i></a></li>
+            <li><a href="https://twitter.com/KourkenK" target="_blank"><i class="fa fa-twitter animated wow slideInUp"></i></a></li>
+            <li><a href="https://www.freecodecamp.org/kourken17" target="_blank"><i class="fa fa-free-code-camp animated wow slideInUp"></i></a></li>
+            <li><a href="https://medium.com/@kourkenkasbarian" target="_blank"><i class="fa fa-medium animated wow slideInUp"></i></a></li>
+            <li><a href="https://codepen.io/Kourken17/" target="_blank"><i class="fa fa-codepen animated wow slideInUp"></i></a></li>
+        </ul>
     </div>
 </footer>
     
-<footer id="footer-2">
-    <p>Copyright &copy; 2017 | Made with <i class="fa fa-heart"></i>, Lots of <i class="fa fa-code"></i>, Many Sleepless <i class="fa fa-moon-o"></i> By <a href="https://www.linkedin.com/in/kourken-kasbarian/" target="_blank">Kourken K.</a></p>
-    <p class="last-update">Last Updated: 05/10/2017</p>
+<footer class="copy">
+    <p>Copyright &copy; 2017 | Coded By <a href="https://www.linkedin.com/in/kourken-kasbarian/" target="_blank">Kourken Kasbarian</a>.</p>
+    <p class="last-update">Last Updated: ??/11/2017</p>
 </footer>
     
-    
 <!-- Go to top button -->
-            
-<button type="button" name="top" id="myBtn"><a href="#"><img src="images/up.png" alt="Go to top"></a></button>
-		
-<!-- Smooth scrolling effect -->
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script src="js/smooth-scroll.js"></script>
+<button type="button" name="top" id="myBtn"><a href="#" data-scroll><img src="images/up.png" alt="Go to top"></a></button>
 
-<script>
-        var scroll = new SmoothScroll('a[href*="#"]');
-</script>
+<!--***** Form and G Analytics Scripts *****-->
 
-<script type="text/javascript" src="js/jquery.introLoader.pack.min.js"></script>
-
-<script>
-    $(document).on('ready', function() {
-    $("#loader").introLoader({
-        animation: {
-            name: 'lettersLoader',
-            options: {
-                ease: "easeInOutCirc",
-                exitFx: "slideUp",
-                style: 'light',
-                delayBefore: 200,
-                delayAfter: 0,
-                animationTime: 200,
-                exitTime: 300,
-                loaderText: 'Welcome to my Portfolio!', 
-                lettersDelayTime: 0,
-                preventScroll: false
-                }
-            }
-        });
-    });
-</script>
-
-<script>
-    new WOW().init();
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-102627507-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<!-- Form processing with AJAX -->
 
 <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
-<script type="text/javascript">
+<!-- Spam Prevention script -->
+<script>
     if (validateHuman(data.honeypot)) {
         return false;
     }
 </script>
 
+<!-- Google Analytics -->
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-102627507-1', 'auto');
+    ga('send', 'pageview');
+</script>
 
 </body>
 </html>
