@@ -2,7 +2,7 @@
 
 This Is My Official Portfolio Website, Where You'll Find My Portfolio, Works, Websites and More...
 
-The 1.7 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
+The 2.0 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
 
 My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/)
 
@@ -25,6 +25,11 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 1.6v: Sixth Update to the Site, I changed the Layout of the 'Some Skills' section from stacking horizontally to stacking vertically of the icons. Changed the text of the 'About' section and made it more professional. Finally, I added few more social links on the Footer.
 
 1.7: Seventh and a small update, I added a "Last Updated" section at the bottom of the page and made the year at the footer change automatically.
+
+1.8: Eigth and a critical update, I fixed the navigational buttons not-working-at-all issue.
+
+
+2.0: A **Huge** Update, where I rebuilt and redesigned the site from the grounds up, it includes many bug fixes, a whole new navigation with lesser code than the previous template one (I wrote it myself this time), more minimalist sections, lesser code overall (~450 lines), better and minimal footer, overall better color combination throughout the site, removed lot of local JS files and linked CDN links instead, removing and adding different JS libraries and more...
 
 ## Feedback:
 
