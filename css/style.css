@@ -393,6 +393,7 @@ img { max-width: 100%; }
 
     #about .flex-about img {
         width: 50%;
+	border-radius: 50%;
     }
 
     #about .flex-about p {
