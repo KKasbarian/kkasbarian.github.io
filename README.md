@@ -31,6 +31,8 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 
 2.0: A **Huge** Update, where I rebuilt and redesigned the site from the grounds up, it includes many bug fixes, a whole new navigation with lesser code than the previous template one (I wrote it myself this time), more minimalist sections, lesser code overall (~450 lines), better and minimal footer, overall better color combination throughout the site, removed lot of local JS files and linked CDN links instead, removing and adding different JS libraries and more...
 
+2.1: Just a small update, added my Resume, finally. That button was left empty for a long time!!
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, I'll be glad if you reach out to me on my Socials.
