@@ -33,6 +33,8 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 
 2.1: Just a small update, added my Resume, finally. That button was left empty for a long time!!
 
+2.2: Small update, added the Google Clone Projects, which is built with SASS, also tweaked some styling in the skills section.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, I'll be glad if you reach out to me on my Socials.
