@@ -35,6 +35,8 @@ My Official Portfolio Website: [Kourken Kasbarian](https://kkasbarian.github.io/
 
 2.2: Small update, added the Google Clone Projects, which is built with SASS, also tweaked some styling in the skills section.
 
+2.5: Fairly a big update, I finally got my personal domain, kkasbarian.com, set it to my personal portfolio website, changed some Google related features to adapt to the new domain, changed the links throughout the site to the new domain and updated the site description.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, I'll be glad if you reach out to me on my Socials.
