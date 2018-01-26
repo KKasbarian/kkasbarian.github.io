@@ -330,7 +330,7 @@ img { max-width: 100%; }
 
 #about {
     text-align: center;
-    padding: 60px 0;
+    padding: 75px 0 60px 0;
     background: #fff;
 }
 
@@ -406,7 +406,7 @@ img { max-width: 100%; }
 
 #services {
     text-align: center;
-    padding: 60px 0 50px 0;
+    padding: 75px 0 50px 0;
     background: #f0efef;
 }
 
@@ -498,7 +498,7 @@ img { max-width: 100%; }
 
 #skills {
     text-align: center;
-    padding: 60px 0 50px 0;
+    padding: 75px 0 50px 0;
     width: 80%;
     margin: 0 auto;
     background: #fff;
@@ -590,7 +590,7 @@ img { max-width: 100%; }
 
 #portfolio {
     text-align: center;
-    padding: 60px 0 50px 0;
+    padding: 75px 0 50px 0;
     background: #f0efef;
 }
 
@@ -668,7 +668,7 @@ img { max-width: 100%; }
 
 #contact {
     text-align: center;
-    padding: 60px 0 50px 0;
+    padding: 75px 0 50px 0;
     background: #fff;
 }
 
