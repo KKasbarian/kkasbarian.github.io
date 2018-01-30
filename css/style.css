@@ -604,12 +604,16 @@ img { max-width: 100%; }
 #portfolio .flex-portfolio {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: flex-start;
     padding: 20px 0 55px 0;
 }
 
-#portfolio .flex-portfolio div { flex: 0 0 30%; }
+#portfolio .flex-portfolio div { 
+    flex: 0 0 30%;
+    margin: 25px 0;
+}
 
 #portfolio .flex-portfolio img { width: 100%; }
 
