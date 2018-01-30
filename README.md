@@ -37,6 +37,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 2.5: Fairly a big update, I finally got my personal domain, kkasbarian.com, set it to my personal portfolio website, changed some Google related features to adapt to the new domain, changed the links throughout the site to the new domain and updated the site description.
 
+2.6: A small update, added many projects on my portfolio to showcase my work!
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, I'll be glad if you reach out to me on my Socials.
