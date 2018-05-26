@@ -39,6 +39,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 2.6: A small update, added many projects on my portfolio to showcase my work!
 
+2.8: Another small one, changed my About bio pic.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, I'll be glad if you reach out to me on my Socials.
