@@ -36,6 +36,36 @@ $(document).ready(function() {
 
 /* End Fixed navigation on scroll function */
 
+/* Navigation Change Color and Background on Scroll */
+
+jQuery(document).ready(function($) {
+    $(window).scroll(function() {
+        var scrollPos = $(window).scrollTop(),
+            navbar = $('#navigation');
+
+        if (scrollPos > 400) {
+            navbar.addClass('nav-change');
+        } else {
+            navbar.removeClass('nav-change');
+        }
+    });
+});
+
+jQuery(document).ready(function($) {
+    $(window).scroll(function() {
+        var scrollPos = $(window).scrollTop(),
+            navbar = $('#nav');
+
+        if (scrollPos > 600) {
+            navbar.addClass('navmenu-change');
+        } else {
+            navbar.removeClass('navmenu-change');
+        }
+    });
+});
+
+/* End Navigation Change Color and Background on Scroll */
+
 /* Typed.js functions */
   document.addEventListener('DOMContentLoaded', function(){
       Typed.new('.type-element', {
@@ -79,8 +109,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 300) {
         document.getElementById("myBtn").style.display = "block";
+        document.getElementById("float-social").style.display = "block";
     } else {
         document.getElementById("myBtn").style.display = "none";
+        document.getElementById("float-social").style.display = "none";
     }
 }
 
