@@ -40,6 +40,10 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 3.0: A **Big** update, I redesigned the site, picked one accent color throughout the site, changed the banner content and made it more minimal and to the point, added some nice touch to the about section, added many skills and new services, made slight changes to the portfolio section, changed the design and layout of the contact form and also changed the colors of the footer. As a bonus, I removed the random page, which was too nooby to be honest!! Made some slight changes and updated to the privacy and credits pages and some more...
 
+3.1: Small one, added FreeCodeCamp's challenges in my Portfolio section, which links to a README, a site for that should be available soon.
+
+3.2: Small update, added a CTA before the footer to hire me on Upwork for freelance projects! Cool idea eh?!
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.
