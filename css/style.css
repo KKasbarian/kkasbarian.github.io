@@ -1252,6 +1252,10 @@ img { max-width: 100%; }
         width: 80%;
 	margin: 0 auto;
     }
+	
+    #upwork-hire h1 {
+	text-align: left;
+    }
 }
 
 /* Footer Section */
