@@ -67,13 +67,13 @@ jQuery(document).ready(function($) {
 /* End Navigation Change Color and Background on Scroll */
 
 /* Typed.js functions */
-  document.addEventListener('DOMContentLoaded', function(){
+  /* document.addEventListener('DOMContentLoaded', function(){
       Typed.new('.type-element', {
         strings: ["Undergraduate IT Student,", "Front-End Web Developer.", "Web Developer! &#9996;"],
         typeSpeed: 110,
         backDelay: 400
       });
-  });
+  }); */
 /* End Typed.js functions */
 
 /* Animations on Scroll */
