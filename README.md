@@ -44,6 +44,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 3.2: Small update, added a CTA before the footer to hire me on Upwork for freelance projects! Cool idea eh?!
 
+3.3: Another small update, added a blog link to my navigations and made the Last Updated text dynamic (only change date once in JS for all pages instead of changing the dates in each page).
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.
