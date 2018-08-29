@@ -46,6 +46,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 3.3: Another small update, added a blog link to my navigations and made the Last Updated text dynamic (only change date once in JS for all pages instead of changing the dates in each page).
 
+3.4: Small update, where I did some minor design and text changes, compressed some images, changed some http links to https.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.

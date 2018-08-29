@@ -17,5 +17,9 @@
 <loc>https://kkasbarian.com/credits.html</loc>
 <priority>0.3</priority>
 </url>
+<url>
+<loc>https://blog.kkasbarian.com/</loc>
+<priority>0.5</priority>
+</url>
  
 </urlset>

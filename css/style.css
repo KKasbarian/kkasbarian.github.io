@@ -532,7 +532,12 @@ img { max-width: 100%; }
 }
  
 #services .flex-services div {
+    height: 350px;
     flex-basis: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 30px 14px;
     margin: 20px 0;
     background: #fff;
@@ -581,7 +586,7 @@ img { max-width: 100%; }
 }
 
 #services .flex-services p {
-    text-align: justify;
+    text-align: left;
     font-size: 16px;
     font-family: 'Poppins', arial, sans-serif;
     font-weight: 400;
@@ -1248,13 +1253,22 @@ img { max-width: 100%; }
 
 @media screen and (max-width: 450px) {
     #upwork-hire div {
-        text-align: left;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #upwork-hire div:first-child {
         width: 80%;
-	margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #upwork-hire div:last-child {
+        width: 90%;
     }
 	
     #upwork-hire h1 {
-	text-align: left;
+        text-align: center;
+        font-size: 30px;
     }
 }
 
@@ -1549,7 +1563,7 @@ footer.copy p a:hover { opacity: 1; }
 }
 
 /* Typing JS */
-#banner .typing { margin-bottom: 15px; }
+/* #banner .typing { margin-bottom: 15px; }
 
 #banner .autotype {
     font-size: 20px;
@@ -1599,7 +1613,7 @@ footer.copy p a:hover { opacity: 1; }
     #banner .autotype {
         font-size: 30px;
     }
-}
+} */
 
 /* Scroll to Top Button */
 #myBtn {
