@@ -1099,7 +1099,7 @@ img { max-width: 100%; }
 }
 
 /* Thanks You Message after submitting the form */
-#thankyou_message {
+.thankyou_message {
     text-align: center;
     padding: 30px 0;
     font-size: 22px;
@@ -1109,7 +1109,7 @@ img { max-width: 100%; }
     color: #f0efef;
 }
 
-#thankyou_message span {
+.thankyou_message span {
     font-weight: 700;
     color: #f1f1f1;
 }
