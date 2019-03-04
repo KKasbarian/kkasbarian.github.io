@@ -48,6 +48,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 3.4: Small update, where I did some minor design and text changes, compressed some images, changed some http links to https.
 
+3.5: Fixed contact form submitting issue. AJAX submitting is working fine now.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.
