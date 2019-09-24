@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
         var scrollPos = $(window).scrollTop(),
             navbar = $('#nav');
 
-        if (scrollPos > 600) {
+        if (scrollPos > 350) {
             navbar.addClass('navmenu-change');
         } else {
             navbar.removeClass('navmenu-change');
