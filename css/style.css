@@ -1140,12 +1140,12 @@ footer.copy {
   display: block;
   width: 50px;
   height: 50px;
-  bottom: 20px;
-  right: 0;
+  bottom: 80px;
+  right: 18px;
   color: #fff;
   background: #1058a4;
   border: none;
-  border-radius: 2px;
+  border-radius: 50px;
   opacity: 0.92;
   z-index: 9999;
   -webkit-transition: ease-in .5s;
@@ -1160,8 +1160,8 @@ footer.copy {
   #myBtn {
     width: 40px;
     height: 40px;
-    bottom: 10px;
-    right: 0; }
+    bottom: 80px;
+    right: 23px; }
     #myBtn img {
       width: 26px;
       height: 26px; } }

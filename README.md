@@ -52,7 +52,9 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 3.6: Converted CSS code to SCSS for easier use in the future.
 
-4.0 A relatively **Big** update, changed a lot of minor things, removed the contact form and added a custom one. Updated some sections of the websites, changed texts, removed credits page, added work experience in the about section and more...
+4.0: A relatively **Big** update, changed a lot of minor things, removed the contact form and added a custom one. Updated some sections of the websites, changed texts, removed credits page, added work experience in the about section and more...
+
+4.1: Added a chat button for sending a form application (Not a personal chat button).
 
 ## Feedback:
 
