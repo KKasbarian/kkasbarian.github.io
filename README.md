@@ -56,6 +56,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 4.1: Added a chat button for sending a form application (Not a personal chat button).
 
+4.2: Added some new coming soon projects (CCD and BOPM).
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.
