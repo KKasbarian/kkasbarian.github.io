@@ -58,6 +58,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 4.2: Added some new coming soon projects (CCD and BOPM).
 
+4.3: Added a fully working Digital Agency Website Template for people to buy (opens only the full website image on click, not the actual website). Added a 'Use' button on this portfolio item.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.
