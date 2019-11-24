@@ -38,7 +38,7 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 2.8: Another small one, changed my About bio pic.
 
-3.0: A **Big** update, I redesigned the site, picked one accent color throughout the site, changed the banner content and made it more minimal and to the point, added some nice touch to the about section, added many skills and new services, made slight changes to the portfolio section, changed the design and layout of the contact form and also changed the colors of the footer. As a bonus, I removed the random page, which was too nooby to be honest!! Made some slight changes and updated to the privacy and credits pages and some more...
+3.0: A **Big** update, I redesigned the site, picked one accent color throughout the site, changed the banner content and made it more minimal and to the point, added some nice touch to the about section, added many skills and new services, made slight changes to the portfolio section, changed the design and layout of the contact form and also changed the colors of the footer. As a bonus, I removed the random page, which was too nooby to be honest!! Made some slight changes and updates to the privacy and credits pages and some more...
 
 3.1: Small one, added FreeCodeCamp's challenges in my Portfolio section, which links to a README, a site for that should be available soon.
 
@@ -59,6 +59,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 4.2: Added some new coming soon projects (CCD and BOPM).
 
 4.3: Added a fully working Digital Agency Website Template for people to buy (opens only the full website image on click, not the actual website). Added a 'Use' button on this portfolio item.
+
+4.5: Changed logos throughout the site, the favicon, the banner background and the showcasing background (which loads as a preview when the link is shared somewhere). Changed some texts throughout the site, made all CTA buttons green instead of the usual blue. Portfolio section is much nicer now as I added preview images of upcoming websites and changed the title link color for better UX. Removed the buttons that lead to the next section (because I thought it's already useless, as these buttons lead to the sections which is literally under them) and other small changes here and there.
 
 ## Feedback:
 

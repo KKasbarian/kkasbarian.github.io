@@ -15,8 +15,8 @@
     <meta name="google-site-verification" content="mBwwrhrb4TTTf-TETdgdFQFVNxKRUyHVC9IaJByhZhk" />
 
     <!-- Images and Aestetchics -->
-    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
-    <link rel="image_src" href=""> <!-- Add the new website mockup -->
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="image_src" href="images/showcase_img.png">
     <meta name="theme-color" content="#1058a4">
 
     <!-- Fonts and Icons Libraries -->
@@ -65,7 +65,10 @@
     <!-- Navigation Bar for small devices -->
     <nav role="navigation" id="navigation">
         <input class="trigger" type="checkbox" id="mainNavButton">
-        <label for="mainNavButton"><a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a></label>
+        <label for="mainNavButton">
+            <a href="index.html" class="white-logo"><img src="images/logo-white.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+            <a href="index.html" class="black-logo"><img src="images/logo-black.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+        </label>
         <ul>
             <li><a href="#" data-scroll>Home</a></li>
             <li><a href="#about" data-scroll>About</a></li>
@@ -78,7 +81,8 @@
     <!-- Navigation Banner for medium and big devices -->
     <section id="nav">
         <div>
-            <a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+            <a href="index.html" class="white-logo"><img src="images/logo-white.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+            <a href="index.html" class="black-logo"><img src="images/logo-black.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
         </div>
         <div class="scroll-nav">
             <ul>
@@ -93,7 +97,7 @@
 
     <!-- Banner Section -->
     <section id="banner" >
-        <h3 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">Front-End Web Developer / WordPress Developer</h3>
+        <h3 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">Front-End | WordPress | Web  Developer</h3>
         <h1 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1.5s">I help <span>businesses</span> and <span>individuals</span> by developing, hosting and supporting their websites so they <span>don't have to</span>!</h1>
         <a href="#contact" data-scroll class="hire animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">Get in touch</a>
         <a href="#about" data-scroll class="down-arrow"><i class="fas fa-arrow-circle-down"></i></a>
@@ -107,10 +111,10 @@
     <div class="flex-about">
         <div class="profile">
             <img class="animated wow slideInLeft" src="images/my-pic.jpg" title="Kourken Kasbarian" alt="Kourken Kasbarian's picture">
-            <p class="animated wow slideInLeft">So, my name is Kourken Kasbarian, and I'm a Front-End Web Developer and WordPress Developer from Armenia. I create websites that convert. I help businesses and individuals by developing, hosting and supporting their websites so they don't have to! Let's talk about your next project.</p>
+            <p class="animated wow slideInLeft">So, my name is Kourken Kasbarian. I create websites that convert. I help businesses and individuals by developing, hosting and supporting their websites so they don't have to! Also, developing responsive, mobile-first, optimized websites with SEO and performance in mind is a priority for me. Let's talk about your next project!</p>
             <div class="about-btns">
                 <a href="https://www.kkasbarian.com/resume/" target="_blank">My Resume <span>&#9944;</span></a>
-                <a href="#services" data-scroll>Services &amp; Skills &#8595;</a></button>
+                <a href="#contact" data-scroll>Get in touch</a></button>
             </div>
         </div>
         <div>
@@ -196,7 +200,6 @@
             <p>I'm always available, so I reply to all emails in less than 24 hours.</p>
         </div>
     </div>
-    <a href="#skills" data-scroll>Skills <span>&#8595;</span></a>
 </section> <!-- END Services Section -->
 
 <!-- Skills Section -->
@@ -257,8 +260,6 @@
             </ul>
         </div>
     </div>
-
-    <a href="#portfolio" data-scroll>Portfolio &#8595;</a>
 </section> <!-- END Skills Section -->
 
 <!-- Portfolio Section -->
@@ -266,59 +267,93 @@
     <h1>Portfolio</h1>
     <div class="flex-portfolio">
         <div class="animated wow slideInUp">
-            <a href="https://flashphotostudio.com"><img src="images/flashphotostudio.png" title="Flash Photo Studio" alt="Flash Photo Studio"></a>
-            <a href="https://www.kkasbarian.com/30Days30Sites/"><h2>Flash Photo Studio</h2></a>
+            <a href="https://flashphotostudio.com" target="_blank"><img src="images/flashphotostudio.png" title="Flash Photo Studio" alt="Flash Photo Studio"></a>
+            <a href="https://flashphotostudio.com" target="_blank" class="portfolio-item-title-link"><h2>Flash Photo Studio</h2></a>
             <p>WordPress website to showcase client's quality wedding, portrait and engagement photography.</p>
         </div>
         <div class="animated wow slideInUp">
-            <a href="#portfolio" data-scroll><img src="images/coming-soon.png" title="CCD" alt="CCD"></a>
-            <a href="#portfolio" data-scroll><h2>CCD - NGO</h2></a>
-            <p>Website Coming Soon</p>
+            <a href="#portfolio" data-scroll><img src="images/ccd-banner-img.png" title="CCD" alt="CCD"></a>
+            <a href="#portfolio" class="portfolio-item-title-link" data-scroll><h2>CCD - NGO</h2></a>
+            <p>Community Connections, NGO Website. Coming Soon.</p>
         </div>
         <div class="animated wow slideInUp">
-            <a href="#portfolio" data-scroll><img src="images/coming-soon.png" title="BOPM" alt="BOPM"></a>
-            <a href="#portfolio" data-scroll><h2>BOPM - Property Management</h2></a>
-            <p>Website Coming Soon</p>
+            <a href="#portfolio" data-scroll><img src="images/bopm-banner-img.png" title="BOPM" alt="BOPM"></a>
+            <a href="#portfolio" class="portfolio-item-title-link" data-scroll><h2>BOPM - Property Management</h2></a>
+            <p>Property Management Website. Coming Soon.</p>
         </div>
         <div class="animated wow slideInUp">
-            <a href="#portfolio" data-scroll><img src="images/coming-soon.png" title="Aleppo Cuisine Armenia" alt="Aleppo Cuisine Armenia"></a>
-            <a href="#portfolio" data-scroll><h2>Aleppo Cuisine Armenia</h2></a>
-            <p>Website Coming Soon</p>
+            <a href="https://aleppocuisine.am/" target="_blank"><img src="images/aleppo-banner-img.png" title="Aleppo Cuisine Armenia" alt="Aleppo Cuisine Armenia"></a>
+            <a href="https://aleppocuisine.am/" target="_blank" class="portfolio-item-title-link"><h2>Aleppo Cuisine Armenia</h2></a>
+            <p>Middle-Eastern Cuisine in Armenia. Coming Soon.</p>
         </div>
         <div class="animated wow slideInUp">
             <a href="images/digital-agency-full.png" target="_blank"><img src="images/digital-agency-site.jpg" title="Digital Agency Website Template" alt="Digital Agency Website Template"></a>
-            <h2>Digital Agency Website Template</h2>
+            <a href="images/digital-agency-full.png" target="_blank" class="portfolio-item-title-link"><h2>Digital Agency Website Template</h2></a>
             <p>H2D is a clean, modern and professional Digital Agency HTML Template built for designers, photographers, agencies, freelancers... Want to use it? Contact me.</p>
             <a href="#contact" class="use" data-scroll>Use</a>
         </div>
         <div class="animated wow slideInUp">
             <a href="https://www.kkasbarian.com/30Days30Sites/"><img src="images/30d30s.png" title="30Days30Sites Projects" alt="30Days30Sites Projects"></a>
-            <a href="https://www.kkasbarian.com/30Days30Sites/"><h2>30Days30Sites</h2></a>
+            <a href="https://www.kkasbarian.com/30Days30Sites/" class="portfolio-item-title-link"><h2>30Days30Sites</h2></a>
             <p>Check out all my finished projects..</p>
         </div>
         <div class="animated wow slideInUp">
             <a href="https://www.kkasbarian.com/fcc-challenges"><img src="images/fcc.png" title="FreeCodeCamp Challenges" alt="FreeCodeCamp Challenges"></a>
-            <a href="https://www.kkasbarian.com/fcc-challenges/"><h2>FreeCodeCamp Challenges</h2></a>
+            <a href="https://www.kkasbarian.com/fcc-challenges/" class="portfolio-item-title-link"><h2>FreeCodeCamp Challenges</h2></a>
             <p>Check out my FCC projects.</p>
         </div>
         <div class="animated wow slideInUp">
             <a href="https://www.kkasbarian.com/30Days30Sites/Photographer/index.html" target="_blank"><img src="images/photo-site.jpg" title="Fashion Site" alt="Fashion Site"></a>
-            <h2>Photography Website</h2>
+            <a href="https://www.kkasbarian.com/30Days30Sites/Photographer/index.html" target="_blank" class="portfolio-item-title-link"><h2>Photography Website</h2></a>
             <p>This is a cool responsive photography website.</p>
         </div>
         <div class="animated wow slideInUp">
             <a href="https://www.kkasbarian.com/30Days30Sites/Fashion-Site/index.html" target="_blank"><img src="images/fashion-site.jpg" title="Fashion Site" alt="Fashion Site"></a>
-            <h2>Fashion Site</h2>
+            <a href="https://www.kkasbarian.com/30Days30Sites/Fashion-Site/index.html" target="_blank" class="portfolio-item-title-link"><h2>Fashion Site</h2></a>
             <p>A minimal, modern and responsive website.</p>
         </div>
-        <!-- <div class="animated wow slideInUp">
-            <a href="https://www.kkasbarian.com/30Days30Sites/Digital-Agency/index.html" target="_blank"><img src="images/digital-agency-site.jpg" title="Digital Agency Website" alt="Digital Agency Website"></a>
-            <h2>Digital Agency Website</h2>
-            <p>An amazing, sleek-looking and responsive digital agency website, which is the best that I made so far.</p>
-        </div> -->
     </div>
-    <a href="#contact" data-scroll class="hire-btn">Get in touch &#8595;</a>
+    <a href="#contact" data-scroll class="hire-btn">Get in touch</a>
 </section> <!-- END Portfolio Section -->
+
+<!-- Testimonials Section -->
+<!-- <section id="testimonials">
+    <h1>Testimonials</h1>
+    <p>Coming</p>
+    <div class="flex-testimonials">
+        <div class="testimonial">
+            <div class="t-company-image">
+                <img src="images/footer-logo.png" alt="Company Name">
+            </div>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam inventore sint optio nostrum reprehenderit odio ducimus, illo iure praesentium dicta ratione velit.</h3>
+            <div class="t-company-info">
+                <p class="t-employee">John Doe</p>
+                <p class="t-company">Manager, <a href="#">Company Name</a></p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="t-company-image">
+                <img src="images/footer-logo.png" alt="Company Name">
+            </div>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos omnis, consequuntur molestias non totam, nostrum voluptas enim minus ipsum autem voluptatibus facere esse tempora perferendis, officiis delectus doloribus. Ab, perspiciatis!</h3>
+            <div class="t-company-info">
+                <p class="t-employee">John Michael Doe</p>
+                <p class="t-company">Manager, <a href="#">Company Name</a></p>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="t-company-image">
+                <img src="images/footer-logo.png" alt="Company Name">
+            </div>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam inventore sint optio nostrum reprehenderit odio ducimus, illo iure praesentium dicta ratione velit.</h3>
+            <div class="t-company-info">
+                <p class="t-employee">John Doe</p>
+                <p class="t-company">Manager, <a href="#">Company Name</a></p>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- END Testimonials Section -->
             
 <!-- Contact Section -->
 <section id="contact">
@@ -343,7 +378,7 @@
 <!-- Footer Section -->
 <footer class="footer">
     <div class="animated wow slideInUp">
-        <a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+        <a href="index.html"><img src="images/footer-logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
         <p>Kourken Kasbarian &copy;</p>
         <ul class="footer-nav">
             <li><a href="#" data-scroll>Home</a></li>
@@ -390,7 +425,7 @@
 <script src="js/main.js" type="text/javascript"></script>
 <script src="js/dynamic.js" type="text/javascript"></script>
 
-<!--***** Form and G Analytics Scripts *****-->
+<!--***** G Analytics Scripts *****-->
 
 <!-- Google Analytics -->
 <script>
@@ -480,3 +515,5 @@
                 <h2><span>Thanks</span> for sending an email! I'll get back to you within 24 hours!</h2>
             </div>
         </form> -->
+
+        <!-- <a href="#portfolio" data-scroll>Portfolio &#8595;</a> -->
