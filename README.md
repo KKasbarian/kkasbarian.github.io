@@ -62,6 +62,8 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 4.5: Changed logos throughout the site, the favicon, the banner background and the showcasing background (which loads as a preview when the link is shared somewhere). Changed some texts throughout the site, made all CTA buttons green instead of the usual blue. Portfolio section is much nicer now as I added preview images of upcoming websites and changed the title link color for better UX. Removed the buttons that lead to the next section (because I thought it's already useless, as these buttons lead to the sections which is literally under them) and other small changes here and there.
 
+4.6: Updated work experience section, did some GTmetrix optimizations, removed CodePen link from footer. Three portfolio items are already live, so I updated the domains of the CCD, BOPM and Aleppo Cuisine websites. Small changes in Skills, Portfolio and bottom CTA sections. Fixed and polished the blown-up Privacy Policy page. Full removal of the credits page. Minimized main JS file and the jQuery-scrollToFixed JS file, also minimized the CSS file.
+
 ## Feedback:
 
 If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.

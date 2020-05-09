@@ -1,4 +1,4 @@
-// SASS Command: sass -w scss/styles.scss:css/style.css
+// SASS Command: sass -w scss/styles.scss:css/style.css --style=compressed
 /* Main */
 * {
 	margin: 0;
@@ -221,7 +221,7 @@ img { max-width: 100%; }
 
     h3 {
         font-size: 22px;
-        font-family: 'Ubuntu', arial, sans-serif;
+        font-family: 'Open Sans', arial, sans-serif;
         font-weight: 400;
         font-style: italic;
         color: #ddd;
@@ -231,7 +231,7 @@ img { max-width: 100%; }
         width: 70%;
         margin-bottom: 10px;
         font-size: 45px;
-        font-family: 'Poppins', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 700;
         color: #fff;
 
@@ -244,7 +244,7 @@ img { max-width: 100%; }
         margin: 15px 0;
         color: #e4e4e4;
         font-size: 29px;
-        font-family: 'Poppins', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         border: 2px solid #fff;
         text-decoration: none;
         -webkit-transition: all .3s ease-in;
@@ -367,7 +367,7 @@ img { max-width: 100%; }
                 text-align: justify;
                 margin: 40px 0;
                 font-size: 18px;
-                font-family: 'Lato', arial, sans-serif;
+                font-family: 'Roboto', arial, sans-serif;
                 font-weight: 400;
                 line-height: 1.7;
                 color: #333;
@@ -389,7 +389,7 @@ img { max-width: 100%; }
                 a {
                     padding: 15px 20px;
                     font-size: 18px;
-                    font-family: 'Lato', arial, sans-serif;
+                    font-family: 'Roboto', arial, sans-serif;
                     font-weight: 400;
                     background: #0b93ee;
                     color: #fff;
@@ -488,6 +488,14 @@ img { max-width: 100%; }
                     font-weight: 300;
                     margin-bottom: 3px;
                     color: #13b4e6;
+                }
+
+                .to-upwork-cta {
+                    margin-top: 5px;
+
+                    a {
+                        color: #22e742;
+                    }
                 }
                 
                 p {
@@ -628,7 +636,7 @@ img { max-width: 100%; }
         
         h2 {
             font-size: 20px;
-            font-family: 'Lato', arial, sans-serif;
+            font-family: 'Roboto', arial, sans-serif;
             font-weight: 400;
             margin: 15px 0;
         }
@@ -636,7 +644,7 @@ img { max-width: 100%; }
         p {
             text-align: left;
             font-size: 16px;
-            font-family: 'Poppins', arial, sans-serif;
+            font-family: 'Roboto', arial, sans-serif;
             font-weight: 400;
             line-height: 1.5;
         }
@@ -689,7 +697,7 @@ img { max-width: 100%; }
     
     h2 {
         font-size: 38px;
-        font-family: 'Ubuntu', arial, sans-serif;
+        font-family: 'Open Sans', arial, sans-serif;
         font-weight: 400;
         margin-bottom: 20px;
     }
@@ -719,7 +727,7 @@ img { max-width: 100%; }
                 padding: 10px 15px;
                 margin: 10px;
                 font-size: 15px;
-                font-family: 'Lato', arial, sans-serif;
+                font-family: 'Roboto', arial, sans-serif;
                 font-weight: 400;
                 background: #eee;
                 color: #252525;
@@ -857,7 +865,7 @@ img { max-width: 100%; }
             h2 {
                 margin: 12px 0 14px 0;
                 font-size: 24px;
-                font-family: 'Ubuntu', arial, sans-serif;
+                font-family: 'Open Sans', arial, sans-serif;
                 font-weight: 400;
             }
         }
@@ -865,7 +873,7 @@ img { max-width: 100%; }
         p {
             padding: 0 10px;
             font-size: 16px;
-            font-family: 'Poppins', arial, sans-serif;
+            font-family: 'Roboto', arial, sans-serif;
             font-weight: 400;
             line-height: 1.3;
         }
@@ -874,7 +882,7 @@ img { max-width: 100%; }
             display: inline-block;
             padding: 10px 40px;
             margin-top: 20px;
-            font-family: 'Ubuntu', arial, sans-serif;
+            font-family: 'Open Sans', arial, sans-serif;
             color: #fff;
             background: #22e742;
         }
@@ -884,7 +892,7 @@ img { max-width: 100%; }
     .hire-btn {
         padding: 15px 25px;
         font-size: 18px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
         background: #0b93ee;
         color: #fff;
@@ -980,7 +988,7 @@ img { max-width: 100%; }
             h3 {
                 margin: 20px 0;
                 font-size: 20px;
-                font-family: 'Lato', Arial, Helvetica, sans-serif;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
                 font-weight: 400;
                 color: #222;
             }
@@ -988,14 +996,14 @@ img { max-width: 100%; }
             p.t-employee {
                 margin-bottom: 5px;
                 font-size: 18px;
-                font-family: 'Poppins', Arial, Helvetica, sans-serif;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
                 font-weight: 700;
                 color: #000;
             }
 
             p.t-company {
                 font-size: 18px;
-                font-family: 'Poppins', Arial, Helvetica, sans-serif;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
                 font-weight: 400;
                 color: #9d9d9d;
                 -webkit-transition: all .3s ease-in;
@@ -1058,7 +1066,7 @@ img { max-width: 100%; }
         width: 60%;
         margin: 0 auto;
         font-size: 18px;
-        font-family: 'Poppins', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
         line-height: 1.6;
     }
@@ -1117,7 +1125,7 @@ img { max-width: 100%; }
     h1 {
         text-align: right;
         font-size: 40px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 700;
     }
     
@@ -1125,7 +1133,7 @@ img { max-width: 100%; }
         display: inline-block;
         padding: 15px 35px;
         font-size: 25px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
         color: #fff;
         background: #22e742;
@@ -1228,7 +1236,7 @@ footer.footer {
     p {
         margin: 7px 0;
         font-size: 18px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
         color: #bbb;
     }
@@ -1246,7 +1254,7 @@ footer.footer {
         li {
             display: inline;
             font-size: 15px;
-            font-family: 'Poppins', arial, sans-serif;
+            font-family: 'Roboto', arial, sans-serif;
             font-weight: 300;
 
             &:first-child { padding-left: 0; }
@@ -1269,7 +1277,7 @@ footer.footer {
         li {
             display: inline;
             font-size: 15px;
-            font-family: 'Poppins', arial, sans-serif;
+            font-family: 'Roboto', arial, sans-serif;
             font-weight: 300;
 
             &:first-child { padding-left: 0; }
@@ -1357,7 +1365,7 @@ footer.copy {
     
     p {
         font-size: 17px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
         color: #ccc;
 
@@ -1372,7 +1380,7 @@ footer.copy {
     p.last-update {
         padding-top: 8px;
         font-size: 16px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
         color: #ccc;
     }
@@ -1491,7 +1499,7 @@ footer.copy {
     
     .upwork {
         font-size: 25px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 700;
     }
 }
@@ -1513,14 +1521,14 @@ footer.copy {
 
 #banner .autotype {
     font-size: 20px;
-    font-family: 'Ubuntu', arial, sans-serif;
+    font-family: 'Open Sans', arial, sans-serif;
     padding-right: 5px;
     color: #fff;
 }
 
 #banner .type-element {
     font-size: 20px;
-    font-family: 'Ubuntu', arial, sans-serif;
+    font-family: 'Open Sans', arial, sans-serif;
     color: #333;
     opacity: 1;
 }
@@ -1615,7 +1623,7 @@ footer.copy {
     
     h3.pol-points {
         font-size: 27px;
-        font-family: 'Ubuntu', arial, sans-serif;
+        font-family: 'Open Sans', arial, sans-serif;
         font-weight: 700;
     }
 
@@ -1626,12 +1634,12 @@ footer.copy {
         margin: 25px auto;
         padding: 0 10px;
         font-size: 17px;
-        font-family: 'Poppins', arial, serif;
+        font-family: 'Roboto', arial, serif;
         font-weight: 400;
 
         a {
             font-size: 17px;
-            font-family: 'Poppins', arial, serif;
+            font-family: 'Roboto', arial, serif;
             font-weight: 400;
             color: #777;
     
@@ -1648,7 +1656,7 @@ footer.copy {
 #privacy > h2 {
     padding: 5px 0;
     font-size: 14px;
-    font-family: 'Lato', arial, sans-serif;
+    font-family: 'Roboto', arial, sans-serif;
     font-weight: 400;
 }
 
@@ -1681,20 +1689,20 @@ footer.copy {
     h2 {
         margin-bottom: 18px;
         font-size: 34px;
-        font-family: 'Lato', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
     }
     
     p {
         margin: 14px 0;
         font-size: 18px;
-        font-family: 'Poppins', arial, sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-weight: 400;
     }
     
     a {
         font-size: 18px;
-        font-family: "Ubuntu", arial, sans-serif;
+        font-family: "Open Sans", arial, sans-serif;
         font-weight: 400;
         color: #127985;
 
@@ -1713,7 +1721,7 @@ footer.copy {
         li {
             margin: 10px 0;
             font-size: 16px;
-            font-family: 'Lato', arial, sans-serif;
+            font-family: 'Roboto', arial, sans-serif;
             font-weight: 400;
             line-height: 1.5;
         }

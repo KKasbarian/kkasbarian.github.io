@@ -15,17 +15,15 @@
     <meta name="copyright" content="kourkenkasbarian">
 
     <!-- Images and Aestetchics -->
-    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
-    <link rel="image_src" href=""> <!-- Add the new website mockup -->
+    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="image_src" href="images/showcase_img.png">
     <meta name="theme-color" content="#1058a4">
 
     <!-- Fonts and Icons Libraries -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/introLoader.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -46,25 +44,16 @@
     </ul>
 </div>
 
-<!-- Navigation Bar for small devices -->
-<nav role="navigation" id="navigation" class="priv-nav">
-    <input class="trigger" type="checkbox" id="mainNavButton">
-    <label for="mainNavButton"><a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a></label>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#services">Services</a></li>
-        <li><a href="index.html#portfolio">Portfolio</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<!-- Navigation Banner for medium and big devices -->    
-<section id="nav" class="priv-nav">
-    <div>
-        <a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
-    </div>
-    <div class="scroll-nav">
+<!--********** Main Banner **********-->
+<section id="banner-container">
+    
+    <!-- Navigation Bar for small devices -->
+    <nav role="navigation" id="navigation">
+        <input class="trigger" type="checkbox" id="mainNavButton">
+        <label for="mainNavButton">
+            <a href="index.html" class="white-logo"><img src="images/logo-white.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+            <a href="index.html" class="black-logo"><img src="images/logo-black.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+        </label>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#about">About</a></li>
@@ -72,8 +61,32 @@
             <li><a href="index.html#portfolio">Portfolio</a></li>
             <li><a href="index.html#contact">Contact</a></li>
         </ul>
-    </div>
-</section>
+    </nav>
+
+    <!-- Navigation Banner for medium and big devices -->
+    <section id="nav">
+        <div>
+            <a href="index.html" class="white-logo"><img src="images/logo-white.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+            <a href="index.html" class="black-logo"><img src="images/logo-black.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+        </div>
+        <div class="scroll-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section id="banner" >
+        <h1 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1.5s">Privacy Policy</h1>
+        <a href="#privacy" data-scroll class="down-arrow"><i class="fas fa-arrow-circle-down"></i></a>
+    </section>
+
+</section> <!-- End Main Banner -->
 
 <!-- Privacy Section -->
 <section id="privacy">
@@ -102,7 +115,7 @@
 <!-- Footer Section -->
 <footer class="footer">
     <div class="animated wow slideInUp">
-        <a href="index.html"><img src="images/logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
+        <a href="index.html"><img src="images/footer-logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
         <p>Kourken Kasbarian &copy;</p>
         <ul class="footer-nav">
             <li><a href="index.html">Home</a></li>
@@ -124,7 +137,6 @@
             <li><a href="https://twitter.com/kkasbarian99" target="_blank"><i class="fab fa-twitter animated wow slideInUp"></i></a></li>
             <li><a href="https://www.freecodecamp.org/kkasbarian" target="_blank"><i class="fab fa-free-code-camp animated wow slideInUp"></i></a></li>
             <li><a href="https://medium.com/@kourkenkasbarian" target="_blank"><i class="fab fa-medium-m animated wow slideInUp"></i></a></li>
-            <li><a href="https://codepen.io/KourkenK/" target="_blank"><i class="fab fa-codepen animated wow slideInUp"></i></a></li>
         </ul>
     </div>
 </footer>
@@ -145,7 +157,7 @@
 <script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
 <script src="js/jquery.introLoader.pack.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
-<script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+<script src="https://unpkg.com/sweet-scroll@4.0.0/sweet-scroll.min.js"></script>
 <script src="js/main.js" type="text/javascript"></script>
 <script src="js/dynamic.js" type="text/javascript"></script>
 

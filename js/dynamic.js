@@ -9,6 +9,6 @@ currentYearElement.innerHTML = currentYear;
 /* Dynamic Last Updated Date */
 
 var lastUpdate = document.getElementById("last-update");
-lastUpdate.innerHTML = "Last Updated: 11/11/2019";
+lastUpdate.innerHTML = "Last Updated: 09/05/2020";
 
 /* END Dynamic Last Updated Date */
