@@ -21,7 +21,7 @@ $(document).ready(function() {
         }
     });
 });
-/* End Intro Loader Animation function */
+
 /* Fixed navigation on scroll function */
 $(document).ready(function() {
     $('#nav').scrollToFixed();
@@ -29,7 +29,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#navigation').scrollToFixed();
 });
-/* End Fixed navigation on scroll function */
+
 /* Navigation Change Color and Background on Scroll */
 jQuery(document).ready(function($) {
     $(window).scroll(function() {
@@ -53,7 +53,7 @@ jQuery(document).ready(function($) {
         }
     });
 });
-/* End Navigation Change Color and Background on Scroll */
+
 /* Typed.js functions */
 /* document.addEventListener('DOMContentLoaded', function(){
     Typed.new('.type-element', {
@@ -62,10 +62,10 @@ jQuery(document).ready(function($) {
     backDelay: 400
     });
 });*/
-/* End Typed.js functions */
+
 /* Animations on Scroll */
 new WOW().init();
-/* End Animations on Scroll function */
+
 /* Smooth Scroll function */
 document.addEventListener("DOMContentLoaded", () => {
     const sweetScroll = new SweetScroll({
@@ -82,8 +82,8 @@ document.addEventListener("DOMContentLoaded", () => {
         stopPropagation: true,
         quickMode: false,
     });
-  }, false);
-/* End Smooth Scroll function */
+}, false);
+
 /* Scroll to top function */
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -99,4 +99,12 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-/* End Scroll to top function */
+
+/* Dynamic Current Year for Copyright */
+var currentYearElement = document.getElementById('copyright-year');
+var currentYear = new Date().getFullYear();
+currentYearElement.innerHTML = currentYear;
+
+/* Dynamic Last Updated Date */
+var lastUpdate = document.getElementById("last-update");
+lastUpdate.innerHTML = "Last Updated: 15/04/2023";

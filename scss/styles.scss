@@ -1332,17 +1332,35 @@ footer.footer {
             }
             
             .fa-linkedin-in:hover { color: #007bb6; }
-            
             .fa-github:hover { color: #181617; }
-            
-            .fa-twitter:hover { color: #2fa7c9; }
-            
             .fa-free-code-camp:hover { color: #006401; }
-            
             .fa-medium-m:hover { color: #08bd5d; }
-            
             .fa-codepen:hover { color: #000; }
         }
+    }
+}
+
+.website-upcoming-update-notif {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 15px 25px;
+    font-size: 16px;
+    font-family: "Roboto",arial,sans-serif;
+    font-weight: 400;
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    box-shadow: 3px 6px 20px rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 991px) {
+    .website-upcoming-update-notif {
+        bottom: 20px;
+        width: 72%;
+        font-size: 13px;
     }
 }
 

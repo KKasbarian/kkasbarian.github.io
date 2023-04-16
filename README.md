@@ -1,26 +1,30 @@
-# Kourken Kasbarian's Official Portfolio
+# Kourken Kasbarian's official portfolio
 
-This Is My Official Portfolio Website, Where You'll Find My Portfolio, Works, Websites and More...
+This is my official portfolio website, where you'll find my works, experience, skills and more...
 
-The 3.0 Version is Up and Running, But It'll be Updated With New Contents, Projects, Site Redesigns, Under-The-Hood Fixes and More in the Coming Versions.
+The 3.0 version is up and running, but it'll be updated with new contents, projects, site redesigns, under-the-hood fixes and more in the coming versions.
 
-My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
+My website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
-## Versions and Changes:
+## Feedback:
 
-1.0: Initial Release, with lots of issues and bugs.
+If you want to request a project or give a feedback, I'll be glad if you reach out to me from my site or on my socials mentioned in the website.
 
-1.1: First Update to the Site, Fixed some Layout Issues, Tidied some CSS.
+## Versions and changes:
 
-1.2: Second Update to the Site, Fixed Portfolio Buttons Issue, Made some small Bug Fixes and Changes.
+1.0: Initial release, with lots of issues and bugs.
 
-1.3: Third Update to the Site, Changed some colors and layout redesigns. Some Buttons Style Changes. Small Footer Changes.
+1.1: First update to the site, fixed some layout issues, tidied some CSS.
 
-1.4: Fourth Update to the Site, Added Intro Loader Animation while the Page loads and Animated some Elements on Scroll.
+1.2: Second update to the site, fixed portfolio buttons issue, made some small bug fixes and changes.
 
-1.5: Fifth Update to the Site, A Huge Update, where I changed the Form Submission Request from Formspree to a better and convenient option which doesn't even need a server or backend to be used. There is also an AJAX Response when a Form is Submitted (So No Redirects) and Spam prevention is (hopefully) there too. Finally, I deleted the Local Saved Font Awesome Folder and instead added an External Link in my HTML.
+1.3: Third update to the site, changed some colors and layout redesigns. Some buttons style changes. small footer changes.
 
-1.6: Sixth Update to the Site, I changed the Layout of the 'Some Skills' section from stacking horizontally to stacking vertically of the icons. Changed the text of the 'About' section and made it more professional. Finally, I added few more social links on the Footer.
+1.4: Fourth update to the site, added intro loader animation while the page loads and animated some elements on scroll.
+
+1.5: Fifth update to the site, a huge update, where I changed the form submission request from Formspree to a better and convenient option which doesn't even need a server or backend to be used. There is also an AJAX response when a form is submitted (so no redirects) and spam prevention is (hopefully) there too. Finally, I deleted the local saved Font Awesome folder and instead added an external link in my HTML.
+
+1.6: Sixth update to the site, I changed the layout of the 'Some Skills' section from stacking horizontally to stacking vertically of the icons. Changed the text of the 'About' section and made it more professional. Finally, I added few more social links on the Footer.
 
 1.7: Seventh and a small update, I added a "Last Updated" section at the bottom of the page and made the year at the footer change automatically.
 
@@ -64,6 +68,4 @@ My Official Portfolio Website: [Kourken Kasbarian](http://www.kkasbarian.com/)
 
 4.6: Updated work experience section, did some GTmetrix optimizations, removed CodePen link from footer. Three portfolio items are already live, so I updated the domains of the CCD, BOPM and Aleppo Cuisine websites. Small changes in Skills, Portfolio and bottom CTA sections. Fixed and polished the blown-up Privacy Policy page. Full removal of the credits page. Minimized main JS file and the jQuery-scrollToFixed JS file, also minimized the CSS file.
 
-## Feedback:
-
-If you encounter any bugs or want to give a feedback, request a project, I'll be glad if you reach out to me from my site or on my Socials.
+4.8: Finally an update after 3 years of not updating the website (unfortunately), a big design overhaul is coming so soon because it's time to modernize the website. For now I updated the work experience in the about section, added my actual and up-to-date resume, removed a portfolio item since the domain isn't working anymore and replaced it with another that I developed and worked on recently, removed Twitter from the website (because, should I really keep it?), optimizing/removing some unnecessary files, some polishing here and there to get set up for the upcoming big update. Stay tuned.
