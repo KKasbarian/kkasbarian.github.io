@@ -279,13 +279,14 @@ footer {
 
                             a {
                                 padding: 1rem 2rem;
-                                color: var(--accent-green);
+                                color: var(--white);
+                                background: var(--accent-green);
                                 border: 2px solid var(--accent-green);
                                 border-radius: 5rem;
 
                                 &:hover {
-                                    color: var(--white);
-                                    background: var(--accent-green);
+                                    color: var(--accent-green);
+                                    background: transparent;
                                 }
 
                                 &::after {
@@ -475,7 +476,7 @@ main {
                     font-size: 2rem;
                     font-family: var(--main-font);
                     font-weight: 600;
-                    color: var(--primary-blue);
+                    color: var(--secondary-blue);
                     line-height: 3rem;
 
                     @media screen and (max-width: 767px) {
@@ -758,10 +759,18 @@ main {
                             &.about-main-cta {
                                 margin-right: 4rem;
                                 font-size: 1.8rem;
+                                color: var(--white);
+                                background: var(--secondary-blue);
+                                border: 2px solid var(--secondary-blue);
 
                                 @media screen and (max-width: 767px) {
                                     margin-right: 0;
                                     margin-bottom: 2rem;
+                                }
+
+                                &:hover {
+                                    color: var(--secondary-blue);
+                                    background: transparent;
                                 }
                             }
 
@@ -770,14 +779,15 @@ main {
                                 font-size: 2rem;
                                 font-family: var(--text-font);
                                 font-weight: 700;
-                                color: var(--accent-green);
+                                color: var(--white);
+                                background: var(--accent-green);
                                 border: 2px solid var(--accent-green);
                                 border-radius: 5rem;
                                 @include transitionContent(.3s);
 
                                 &:hover {
-                                    color: var(--white);
-                                    background: var(--accent-green);
+                                    color: var(--accent-green);
+                                    background: transparent;
                                 }
                             }
                         }
