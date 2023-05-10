@@ -1770,6 +1770,7 @@ main {
 
             .contact-content-container {
                 width: 100%;
+                min-height: 35rem;
 
                 @media screen and (max-width: 767px) {
                     min-height: 60rem;

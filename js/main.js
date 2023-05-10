@@ -116,6 +116,19 @@ $(document).ready(function() {
         moreServiceContent.fadeOut(300);
     });
 
+    /* Load Typeform after user scrolls */
+    let startedForm = 0;
+    function startForm() {
+        if(startedForm == 0) {
+            $('.contact-content-container').html('<div data-tf-widget="zdz53C" data-tf-opacity="100" data-tf-iframe-props="title=Contact Form Submission" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:600px;"></div>');
+            $('.contact-content-container').append('<script src="//embed.typeform.com/next/embed.js">');
+        }
+        startedForm = 1;
+    }
+    document.addEventListener('scroll', () => {
+        startForm();
+    });
+
     /* Easter egg that nobody asked for */
     // Counters
     let clickCounter = 0;
