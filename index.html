@@ -1,437 +1,760 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Necessary Characters and Viewport Tags -->
+    <!-- Necessary Tags for Characters and Viewport -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- Information for SEO Purposes -->
-	<title>Kourken Kasbarian | WordPress & Front-End Web Developer</title>
+	<title>WordPress & Front-End Web Developer | Kourken Kasbarian</title>
 	<meta name="description" content="Kourken Kasbarian is a WordPress & Front-End Web Developer with 5 years of experience. He creates successful, fast and responsive websites with best practices.">
     <meta name="keywords" content="Kourken, Kasbarian, Kourken Kasbarian, WordPress Developer, Armenia, Kourken Kasbarian Portfolio, Portfolio, Front-End Web Developer, Web Developer, Armenian Web Developer, Front-End, HTML, CSS, JavaScript, Git, Github, PHP, WordPress, WordPress Developer, kkasbarian">
     <meta name="url" content="https://kkasbarian.com">
     <meta name="copyright" content="kourkenkasbarian">
     <meta name="google-site-verification" content="mBwwrhrb4TTTf-TETdgdFQFVNxKRUyHVC9IaJByhZhk" />
 
-    <!-- Images and Aestetchics -->
-    <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
-    <link rel="image_src" href="images/showcase_img.png">
-    <meta name="theme-color" content="#1058a4">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 
-    <!-- Fonts and Icons Libraries -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="css/introLoader.min.css">
+    <!-- Meta Showcase Image and Theme Color -->
+    <link rel="image_src" href="images/showcase_img.png">
+    <meta name="theme-color" content="#0B93EE">
+
+    <!-- Fonts and Icon Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Facebook Summary Card -->
     <meta property="og:url" content="https://kkasbarian.com">
-    <meta property="og:title" content="Kourken Kasbarian | WordPress & Front-End Web Developer">
+    <meta property="og:title" content="WordPress & Front-End Web Developer | Kourken Kasbarian">
     <meta property="og:description" content="Kourken Kasbarian is a WordPress & Front-End Web Developer with 5 years of experience. He creates successful, fast and responsive websites with best practices.">
-    <meta property="og:image" content="images/bg.jpg">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="536">
+    <meta property="og:image" content="images/showcase_img.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <!-- Twitter Summary Card with Large Image -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@kkasbarian">
-    <meta name="twitter:title" content="Kourken Kasbarian | WordPress & Front-End Web Developer">
+    <meta name="twitter:title" content="WordPress & Front-End Web Developer | Kourken Kasbarian">
     <meta name="twitter:description" content="Kourken Kasbarian is a WordPress & Front-End Web Developer with 5 years of experience. He creates successful, fast and responsive websites with best practices.">
-    <meta name="twitter:image" content="images/bg.jpg">
+    <meta name="twitter:image" content="images/showcase_img.png">
 </head>
 <body>
     
-<!-- Intro Loading Animation -->
-<div id="loader" class="introLoading" style="z-index: 999999999;"></div>
+<!-- Loading Animation -->
+<div id="loader" class="loaderAnimation">
+    <img src="/images/loader.svg" title="Loading..." alt="Loading..." />
+    <p>Loading...</p>
+</div>
 
 <!-- Floating Social Buttons -->    
 <div id="float-social">
     <ul>
-        <li><a href="https://www.linkedin.com/in/kkasbarian/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="https://github.com/KKasbarian" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.upwork.com/freelancers/~0107cce0b4a32f236b" target="_blank" class="upwork" title="Connect on Upwork">U</a></li>
+        <li><a href="https://www.linkedin.com/in/kkasbarian/" target="_blank" title="Connect with me on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/KKasbarian" target="_blank" title="Follow me on GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.freecodecamp.org/kkasbarian" target="_blank" title="View my freecodecamp profile"><i class="fa-brands fa-free-code-camp"></i></a></li>
+        <li><a href="https://medium.com/@kourkenkasbarian" target="_blank" title="Check my Medium publications"><i class="fa-brands fa-medium"></i></a></li>
     </ul>
 </div>
 
-<!--********** Main Banner **********-->
-<section id="banner-container">
-    
-    <!-- Navigation Bar for small devices -->
-    <nav role="navigation" id="navigation">
-        <input class="trigger" type="checkbox" id="mainNavButton">
-        <label for="mainNavButton">
-            <a href="index.html" class="white-logo"><img src="images/logo-white.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
-            <a href="index.html" class="black-logo"><img src="images/logo-black.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
-        </label>
-        <ul>
-            <li><a href="#" data-scroll>Home</a></li>
-            <li><a href="#about" data-scroll>About</a></li>
-            <li><a href="#services" data-scroll>Services</a></li>
-            <li><a href="#portfolio" data-scroll>Portfolio</a></li>
-            <li><a href="#contact" data-scroll>Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Navigation Banner for medium and big devices -->
-    <section id="nav">
-        <div>
-            <a href="index.html" class="white-logo"><img src="images/logo-white.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
-            <a href="index.html" class="black-logo"><img src="images/logo-black.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
-        </div>
-        <div class="scroll-nav">
-            <ul>
-                <li><a href="#" data-scroll>Home</a></li>
-                <li><a href="#about" data-scroll>About</a></li>
-                <li><a href="#services" data-scroll>Services</a></li>
-                <li><a href="#portfolio" data-scroll>Portfolio</a></li>
-                <li><a href="#contact" data-scroll>Contact</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Banner Section -->
-    <section id="banner" >
-        <h3 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">Front-End | WordPress | Web  Developer</h3>
-        <h1 class="animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="1.5s">I help <span>businesses</span> and <span>individuals</span> by developing, hosting and supporting their websites so they <span>don't have to</span>!</h1>
-        <a href="#contact" data-scroll class="hire animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">Get in touch</a>
-        <a href="#about" data-scroll class="down-arrow"><i class="fas fa-arrow-circle-down"></i></a>
-    </section>
-
-</section> <!-- End Main Banner -->
-            
-<!-- About Section -->
-<section id="about" >
-    <h1>About Me</h1>
-    <div class="flex-about">
-        <div class="profile">
-            <img class="animated wow slideInLeft" src="images/my-pic.jpg" title="Kourken Kasbarian" alt="Kourken Kasbarian's picture">
-            <p class="animated wow slideInLeft">So, my name is Kourken Kasbarian. I create websites that convert. I help businesses and individuals by developing, hosting and supporting their websites so they don't have to! Also, developing responsive, mobile-first, optimized websites with SEO and performance in mind is a priority for me. Let's talk about your next project!</p>
-            <div class="about-btns">
-                <a href="/Kourken-Kasbarian-CV.pdf" target="_blank">Donload my CV <span>&#9944;</span></a>
-                <a href="#contact" data-scroll>Get in touch</a></button>
+<!-- Header -->
+<header id="header" class="header">
+    <div class="container">
+        <div class="content-holder">
+            <div class="logo-container">
+                <a href="/" class="logo">
+                    <img src="images/logo.svg" title="Kourken Kasbarian" alt="Kourken Kasbarian" width="44" height="60">
+                </a>
             </div>
-        </div>
-        <div>
-            <!-- Work Experience -->
-            <section class="work">
-                <h2>Work Experience</h2>
-                <div class="works">
-                    <div class="work-place wow slideInRight" data-wow-duration="1s">
-                        <h2>Senior WordPress Developer</h2>
-                        <h3>Klips</h3>
-                        <p class="date">Sep 2022 - Mar 2022</p>
-                    </div>
-                    <div class="work-place wow slideInRight" data-wow-duration="1s">
-                        <h2>WordPress Developer</h2>
-                        <h3>Vecto</h3>
-                        <p class="date">Feb 2020 - Aug 2022</p>
-                    </div>
-                    <div class="work-place wow slideInRight" data-wow-duration="1s">
-                        <h2>Front-End Web/WordPress Developer</h2>
-                        <h3>WiseSource</h3>
-                        <p class="date">Jan 2019 - Jan 2020</p>
-                    </div>
-                    <div class="work-place wow slideInRight" data-wow-duration="1s">
-                        <h2>Front-End Web Developer</h2>
-                        <h3>AimTech</h3>
-                        <p class="date">Oct 2018 - Aug 2019</p>
-                    </div>
-                    <div class="work-place wow slideInRight" data-wow-duration="1s">
-                        <h2>Junior WordPress Developer</h2>
-                        <h3>AppearMe</h3>
-                        <p class="date">Jun 2018 - Jun 2019</p>
-                    </div>
-                    <div class="work-place wow slideInRight" data-wow-duration="1s">
-                        <h2>Freelance Front-End Web Developer</h2>
-                        <h3>Upwork</h3>
-                        <p class="date">May 2018 - Present</p>
-                        <p class="to-upwork-cta"><a href="#upwork-hire" data-scroll>Let's Connect</a></p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-</section> <!-- END About Section -->
-            
-<!-- Services Section -->
-<section id="services">
-    <h1>Services</h1>
-    <div class="flex-services">
-        <div class="animated wow slideInLeft">
-            <i class="fas fa-gem"></i>
-            <h2>Quality Websites</h2>
-            <p>Quality is the first thing that I think of while working on a project.</p>
-        </div>
-        <div class="animated wow slideInLeft">
-            <section>
-                <i class="fas fa-mobile"></i>
-                <i class="fas fa-tablet"></i>
-                <i class="fas fa-desktop"></i>
-            </section>
-            <h2>Responsive Websites</h2>
-            <p>Nearly 80% of visitors are on mobile, so responsiveness and mobile-first are my goals while developing a website.</p>
-        </div>
-        <div class="animated wow slideInRight">
-            <i class="fas fa-code"></i>
-            <h2>Clean and clear code</h2>
-            <p>I use clean and modular code with methodologies such as BEM and preprocessors such as SASS/SCSS. So, no need to worry about the code!</p>
-        </div>
-        <div class="animated wow slideInRight">
-            <i class="fab fa-wordpress"></i>
-            <h2>WordPress Websites</h2>
-            <p>I develop and maintain WordPress websites. Hosting and support also included. SEO and performance checks are a must.</p>
-        </div>
-        <div class="animated wow slideInLeft">
-            <section>
-                <i class="fas fa-file"></i>
-                <i class="fas fa-file-code"></i>
-            </section>
-            <h2>PSD/XD to HTML/CSS/WordPress</h2>
-            <p>Have a cool design? Just provide it. The rest is on me.</p>
-        </div>
-        <div class="animated wow slideInLeft">
-            <i class="fas fa-clipboard-list"></i>
-            <h2>SEO-Friendly Websites</h2>
-            <p>I implement basic to advanced SEO techniques on each site for better search engine rankings.</p>
-        </div>
-        <div class="animated wow slideInRight">
-            <i class="far fa-life-ring"></i>
-            <h2>Full Support</h2>
-            <p>From building your website to maintaining the availability and performance of it, rest assured you're all covered.</p>
-        </div>
-        <div class="animated wow slideInRight">
-            <i class="fas fa-comments"></i>
-            <h2>Fast Communication</h2>
-            <p>I'm always available, so I reply to all emails in less than 24 hours.</p>
-        </div>
-    </div>
-</section> <!-- END Services Section -->
-
-<!-- Skills Section -->
-<section id="skills">
-    <h1>Skills</h1>
-
-    <div class="flex-skills">
-        <div>
-            <h2>Front End:</h2>
-            <ul class="animated wow slideInUp">
-                <li><i class="devicon-html5-plain-wordmark colored html"></i> <span>HTML5</span></li>
-                <li><i class="devicon-css3-plain-wordmark colored css"></i> <span>CSS3</span></li>
-                <li><i class="devicon-javascript-plain colored js"></i> <span>JavaScript</span></li>
-                <li><i class="devicon-wordpress-plain colored"></i> <span>WordPress</span></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Back End:</h2>
-            <ul class="animated wow slideInUp">
-                <li><i class="devicon-php-plain colored"></i> <span>PHP</span></li>
-                <li><i class="devicon-mysql-plain colored"></i> <span>MySQL</span></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Frameworks:</h2>
-            <ul class="animated wow slideInUp">
-                <li><i class="devicon-bootstrap-plain colored bootstrap"></i> <span>Bootstrap</span></li>
-                <li><i class="devicon-sass-original colored sass"></i> <span>SASS/SCSS</span></li>
-                <li><i class="devicon-jquery-plain-wordmark colored jquery"></i> <span>jQuery</span></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Design:</h2>
-            <ul class="animated wow slideInUp">
-                <li><i class="devicon-photoshop-plain colored photoshop"></i> <span>Photoshop</span></li>
-                <li><i class="devicon-illustrator-plain colored illustrator"></i> <span>Illustrator</span></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Programming:</h2>
-            <ul class="animated wow slideInUp">
-                <li title="University knowledge. No actual work experience!"><i class="devicon-python-plain colored"></i> <span>Python</span></li>
-                <li title="University knowledge. No actual work experience!"><i class="devicon-cplusplus-plain colored"></i> <span>C++</span></li>
-                <li title="University knowledge. No actual work experience!"><i class="devicon-java-plain"></i> <span>Java</span></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Tools:</h2>
-            <ul class="animated wow slideInUp">
-                <li><i class="devicon-git-plain colored"></i> Git</li>
-                <li><i class="devicon-github-plain colored github"></i> <span>GitHub</li>
-                    <li><i class="devicon-bitbucket-plain colored"></i> <span>BitBucket</li>
-                <li><i class="devicon-visualstudio-plain colored"></i> <span>Visual Studio</li>
-                <li><i class="devicon-chrome-plain colored chrome"></i> <span>Chrome</li>
-                <li><i class="devicon-firefox-plain colored"></i> <span>Firefox</li>
-                <li><i class="devicon-slack-plain colored"></i> <span>Slack</li>
-            </ul>
-        </div>
-    </div>
-</section> <!-- END Skills Section -->
-
-<!-- Portfolio Section -->
-<section id="portfolio">
-    <h1>Portfolio</h1>
-    <div class="flex-portfolio">
-        <div class="animated wow slideInUp">
-            <a href="https://kristinastransportationservices.com/" target="_blank"><img src="images/kristinas-transport-services.png" title="Kristina's Transport Services" alt="Kristina's Transport Services"></a>
-            <a href="https://kristinastransportationservices.com/" target="_blank" class="portfolio-item-title-link"><h2>Kristina's Transport Services</h2></a>
-            <p>Luxury car reservation service in the US.</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://communityconnectionsdetroit.org/" target="_blank"><img src="images/ccd-banner-img.png" title="CCD" alt="CCD"></a>
-            <a href="https://communityconnectionsdetroit.org/" target="_blank" class="portfolio-item-title-link"><h2>CCD - NGO</h2></a>
-            <p>Community Connections, NGO Website.</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://thebopm.com/" target="_blank"><img src="images/bopm-banner-img.png" title="BOPM" alt="BOPM"></a>
-            <a href="https://thebopm.com/" target="_blank" class="portfolio-item-title-link"><h2>BOPM - Property Management</h2></a>
-            <p>Property Management Website.</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://flashphotostudio.com" target="_blank"><img src="images/flashphotostudio.png" title="Flash Photo Studio" alt="Flash Photo Studio"></a>
-            <a href="https://flashphotostudio.com" target="_blank" class="portfolio-item-title-link"><h2>Flash Photo Studio</h2></a>
-            <p>WordPress website to showcase client's quality wedding, portrait and engagement photography.</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="images/digital-agency-full.png" target="_blank"><img src="images/digital-agency-site.jpg" title="Digital Agency Website Template" alt="Digital Agency Website Template"></a>
-            <a href="images/digital-agency-full.png" target="_blank" class="portfolio-item-title-link"><h2>Digital Agency Website Template</h2></a>
-            <p>H2D is a clean, modern and professional Digital Agency HTML Template built for designers, photographers, agencies, freelancers...</p>
-            <a href="#contact" class="use" data-scroll>Get Template</a>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://kkasbarian.com/30Days30Sites/"><img src="images/30d30s.png" title="30Days30Sites Projects" alt="30Days30Sites Projects"></a>
-            <a href="https://kkasbarian.com/30Days30Sites/" class="portfolio-item-title-link"><h2>30Days30Sites</h2></a>
-            <p>Check out all my finished projects..</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://kkasbarian.com/fcc-challenges"><img src="images/fcc.png" title="FreeCodeCamp Challenges" alt="FreeCodeCamp Challenges"></a>
-            <a href="https://kkasbarian.com/fcc-challenges/" class="portfolio-item-title-link"><h2>FreeCodeCamp Challenges</h2></a>
-            <p>Check out my FCC projects.</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://kkasbarian.com/30Days30Sites/Photographer/index.html" target="_blank"><img src="images/photo-site.jpg" title="Fashion Site" alt="Fashion Site"></a>
-            <a href="https://kkasbarian.com/30Days30Sites/Photographer/index.html" target="_blank" class="portfolio-item-title-link"><h2>Photography Website</h2></a>
-            <p>This is a cool responsive photography website.</p>
-        </div>
-        <div class="animated wow slideInUp">
-            <a href="https://kkasbarian.com/30Days30Sites/Fashion-Site/index.html" target="_blank"><img src="images/fashion-site.jpg" title="Fashion Site" alt="Fashion Site"></a>
-            <a href="https://kkasbarian.com/30Days30Sites/Fashion-Site/index.html" target="_blank" class="portfolio-item-title-link"><h2>Fashion Site</h2></a>
-            <p>A minimal, modern and responsive website.</p>
-        </div>
-    </div>
-    <a href="#contact" data-scroll class="hire-btn">Get in touch</a>
-</section> <!-- END Portfolio Section -->
-
-<!-- Testimonials Section -->
-<!-- <section id="testimonials">
-    <h1>Testimonials</h1>
-    <p>Coming Soon</p>
-    <div class="flex-testimonials">
-        <div class="testimonial">
-            <div class="t-company-image">
-                <img src="images/footer-logo.png" alt="Company Name">
-            </div>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam inventore sint optio nostrum reprehenderit odio ducimus, illo iure praesentium dicta ratione velit.</h3>
-            <div class="t-company-info">
-                <p class="t-employee">John Doe</p>
-                <p class="t-company">Manager, <a href="#">Company Name</a></p>
-            </div>
-        </div>
-        <div class="testimonial">
-            <div class="t-company-image">
-                <img src="images/footer-logo.png" alt="Company Name">
-            </div>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos omnis, consequuntur molestias non totam, nostrum voluptas enim minus ipsum autem voluptatibus facere esse tempora perferendis, officiis delectus doloribus. Ab, perspiciatis!</h3>
-            <div class="t-company-info">
-                <p class="t-employee">John Michael Doe</p>
-                <p class="t-company">Manager, <a href="#">Company Name</a></p>
-            </div>
-        </div>
-        <div class="testimonial">
-            <div class="t-company-image">
-                <img src="images/footer-logo.png" alt="Company Name">
-            </div>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam inventore sint optio nostrum reprehenderit odio ducimus, illo iure praesentium dicta ratione velit.</h3>
-            <div class="t-company-info">
-                <p class="t-employee">John Doe</p>
-                <p class="t-company">Manager, <a href="#">Company Name</a></p>
+            <nav role="navigation" id="navigation" class="navigation">
+                <ul class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services-custom-title">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li class="header-cta"><a href="#contact">Get In Touch</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <p>Menu</p>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
         </div>
     </div>
-</section> -->
-<!-- END Testimonials Section -->
-            
-<!-- Contact Section -->
-<section id="contact">
-    <h1>Let's Get in Touch Now</h1>
-    <!-- <p>If you want a responsive website or a redesign of your current site, WordPress website development or just a meeting for a job opportunity, fill out the form below and I'll get back to you ASAP:</p> -->
-    <div class="flex-contact">
-        <div class="typeform-widget" data-url="https://kkasbarian.typeform.com/to/zdz53C" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-        <!-- <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=zdz53C&utm_source=typeform.com-14719873-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> -->
-    </div>
-</section> <!-- END Contact Section -->
-
-<!-- Upwork Hire Section -->
-<section id="upwork-hire">
-    <div>
-        <h1>Have a freelance project or job opportunity?</h1>
-    </div>
-    <div>
-        <a href="https://www.upwork.com/freelancers/~0107cce0b4a32f236b" target="_blank" title="Hire on Upwork">Let's Connect</a>
+</header>
+<!-- Mobile Menu -->
+<section id="mobile-menu-overlay" class="mobile-menu-overlay" style="display: none;">
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-socials-container">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/kkasbarian/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/KKasbarian" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.freecodecamp.org/kkasbarian" target="_blank" title="View my freecodecamp profile"></a>><i class="fab fa-free-code-camp"></i></a></li>
+                    <li><a href="https://medium.com/@kourkenkasbarian" target="_blank" title="Check my Medium publications"><i class="fab fa-medium-m"></i></a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <nav class="mobile-menu-body">
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services-custom-title">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li class="header-cta"><a href="#contact">Get In Touch</a></li>
+            </ul>
+        </nav>
     </div>
 </section>
 
-<!-- Footer Section -->
-<footer class="footer">
-    <div class="animated wow slideInUp">
-        <a href="index.html"><img src="images/footer-logo.png" title="Kourken Kasbarian" alt="Kourken Kasbarian"></a>
-        <p>Kourken Kasbarian &copy;</p>
-        <ul class="footer-nav">
-            <li><a href="#" data-scroll>Home</a></li>
-            <li><a href="#about" data-scroll>About</a></li>
-            <li><a href="#services" data-scroll>Services</a></li>
-            <li><a href="#portfolio" data-scroll>Portfolio</a></li>
-            <li><a href="#contact" data-scroll>Contact Me</a></li>
-        </ul>
-        <ul class="site-info">
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="sitemap.xml">Sitemap</a></li>
-        </ul>
-    </div>
-    <div>
-        <h2>My Socials:</h2>
-        <ul class="socials">
-            <li><a href="https://www.linkedin.com/in/kkasbarian/" target="_blank"><i class="fab fa-linkedin-in animated wow slideInUp"></i></a></li>
-            <li><a href="https://github.com/KKasbarian" target="_blank"><i class="fab fa-github animated wow slideInUp"></i></a></li>
-            <li><a href="https://www.freecodecamp.org/kkasbarian" target="_blank"><i class="fab fa-free-code-camp animated wow slideInUp"></i></a></li>
-            <li><a href="https://medium.com/@kourkenkasbarian" target="_blank"><i class="fab fa-medium-m animated wow slideInUp"></i></a></li>
-        </ul>
+<!-- Main Wrapper -->
+<main>
+    <!-- Banner -->
+    <section id="banner" class="banner">
+        <div class="container">
+            <div class="content-holder">
+                <div class="banner-content">
+                    <h2 class="banner-pre-title">Hello, I'm Kourken</h2>
+                    <h1 class="banner-title">WordPress & Front-End Web <span>Developer</span></h1>
+                    <div class="banner-desc">Developing websites is my passion, and with my 5 years of experience, I am dedicated to creating innovative solutions that meet the unique needs of each client.</div>
+                    <a href="/Kourken-Kasbarian-CV.pdf" target="_blank" class="banner-cta download-cv-btn">Download CV</a>
+                </div>
+                <div class="banner-image">
+                    <div class="banner-image-inner">
+                        <img src="/images/me.jpg" alt="Kourken Kasbarian" width="350" height="350">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="content-holder">
+                <div class="about-title-container title-container">
+                    <h2>About Me</h2>
+                    <p>Here you'll find more information about me, what I do, my work experience and skills</p>
+                </div>
+                <div class="about-content-container">
+                    <div class="about-me-info-container">
+                        <h3 class="about-inner-section-title">Get to know me!</h3>
+                        <div class="about-me-text-container">
+                            <p>Hi there! My name is Kourken and I'm a <span>WordPress developer</span> with a passion for creating engaging and functional websites. With over 5 years of experience in the field, I've honed my skills in developing custom WordPress themes and websites, optimizing site speed and performance, and providing top-notch technical support.</p>
+                            <p>But it's not just my technical skills that set me apart. I also have a <span>strong attention to detail</span>, excellent problem-solving skills, and a collaborative mindset that allows me to work effectively with clients and team members alike.</p>
+                            <p>I believe in creating solutions that meet the <span>unique needs</span> of each client and strive to exceed expectations with every project I undertake, be it meeting the deadlines on time or going the extra mile and providing perfect support during and after delivering a project. <a href="about.html" class="about-more">More about me</a>.</p>
+                            <p>I'm open to <span>job opportunities</span> where I can contribute, learn and grow. If you have an opportunity that match my skills and experience, don't hesitate to <a href="#contact">contact me</a>.</p>
+                        </div>
+                        <div class="about-btns-container">
+                            <a href="/Kourken-Kasbarian-CV.pdf" target="_blank" class="about-main-cta download-cv-btn">Download CV</a>
+                            <a href="#portfolio" class="about-secondary-cta">Portfolio</a>
+                        </div>
+                        <div class="about-skills-container">
+                            <h3>Skills</h3>
+                            <div class="skills skills-front-end">
+                                <h4>Front End</h4>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="skills skills-back-end">
+                                <h4>Back End</h4>
+                                <ul>
+                                    <li>WordPress</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills skills-frameworks">
+                                <h4>Frameworks/Libraries</h4>
+                                <ul>
+                                    <li>Bootstrap</li>
+                                    <li>Bulma</li>
+                                    <li>SASS/SCSS</li>
+                                    <li>React</li>
+                                    <li>jQuery</li>
+                                    <li>NPM</li>
+                                </ul>
+                            </div>
+                            <div class="skills skills-design">
+                                <h4>Design</h4>
+                                <ul>
+                                    <li>Photoshop</li>
+                                    <li>Illustrator</li>
+                                    <li>Adobe XD</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+                            <div class="skills skills-tools">
+                                <h4>Tools</h4>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                    <li>GitLab</li>
+                                    <li>BitBucket</li>
+                                    <li>Visual Studio</li>
+                                    <li>Chrome</li>
+                                    <li>Firefox</li>
+                                    <li>Slack</li>
+                                    <li>SEO</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-experience-container">
+                        <h3 class="about-inner-section-title">Work Experience</h3>
+                        <div class="work-experience">
+                            <div class="work-place">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <div class="remote-position">Remote</div>
+                                <h3>Senior WordPress Developer</h3>
+                                <h4>Klips</h4>
+                                <p class="date">Sep 2022 - Mar 2022</p>
+                                <div class="work-place-desc" style="display: none;">
+                                    <p class="work-place-info">Klips is a trading company where a user can trade forex, shares, stocks, etc. I worked in the marketing and growth team, made regular updates, and added new features, pages, landing pages, worked with APIs, etc.</p>
+                                    <ul class="work-place-main-tasks">
+                                        <li><i class="fa-solid fa-caret-right"></i> Responsible for the front-end and back-end of the company website with the other developers</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Issue and bug fixes, working with APIs, optimizations and security</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Collaborate with designers, project managers, and other developers to transform concepts and designs into production realities for the product website</li>
+                                        <li class="work-place-tech-stack"><span>Tech Stack:</span> WordPress, PHP, MySQL, HTML, CSS, SCSS, JavaScript, jQuery, ACF, GitLab, APIs, Figma, Jira, Microsoft Teams, Slack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="work-place">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <h3>Mid WordPress Developer</h3>
+                                <h4>Vecto</h4>
+                                <p class="date">Feb 2020 - Aug 2022</p>
+                                <div class="work-place-desc" style="display: none;">
+                                    <p class="work-place-info">Vecto is an Armenia-based outsourcing company, with multiple departments, from React and Node.js team, C# and .NET team to the WordPress team. I worked in the WordPress team, developing and delivering lots of projects for the clients of the company, from shops to NGOs to news websites and lots more.</p>
+                                    <ul class="work-place-main-tasks">
+                                        <li><i class="fa-solid fa-caret-right"></i> Responsible for the front-end and back-end of the projects</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Developed WordPress projects from scratch or based on pre-made themes, Woocommerce websites (for shops), various features and more based on provided requirements and designs</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Made sure the projects were SEO optimized, fast and secure</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Regular daily meetings and constant communication with the team members and project managers for updates regarding the projects</li>
+                                        <li class="work-place-tech-stack"><span>Tech Stack:</span> WordPress, Woocommerce PHP, MySQL, HTML, CSS, SCSS, JavaScript, jQuery, ACF, Yoast, GitHub, cPanel, FTP, Figma, Adobe XD, Slack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="work-place">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <h3>Front-End Web/WordPress Developer</h3>
+                                <h4>WiseSource</h4>
+                                <p class="date">Jan 2019 - Jan 2020</p>
+                                <div class="work-place-desc" style="display: none;">
+                                    <p class="work-place-info">WiseSource is an Armenia-based outsourcing company, with projects based on WordPress. I worked with the CEO, project manager, and designer to provide solutions to the clients.</p>
+                                    <ul class="work-place-main-tasks">
+                                        <li><i class="fa-solid fa-caret-right"></i> Responsible for the front-end and back-end of the projects</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Developed WordPress projects from scratch or based on pre-made themes, Woocommerce websites (for shops), various features and more based on provided requirements and designs</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Regular meetings for updates regarding the projects. Worked with the SEO specialist for better optimizing the projects.</li>
+                                        <li class="work-place-tech-stack"><span>Tech Stack:</span> WordPress, Woocommerce PHP, MySQL, HTML, CSS, JavaScript, jQuery, FTP, GitLab, Slack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="work-place">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <h3>Front-End Web Developer</h3>
+                                <h4>AimTech</h4>
+                                <p class="date">Oct 2018 - Aug 2019</p>
+                                <div class="work-place-desc" style="display: none;">
+                                    <p class="work-place-info">AimTech is an Armenia-based outsourcing company, with projects varying from React, Node.js, and WordPress, to Android and iOS app development. I worked in the front-end and WordPress departments, creating solutions for clients' needs and requirements.</p>
+                                    <ul class="work-place-main-tasks">
+                                        <li><i class="fa-solid fa-caret-right"></i> Developed static and WordPress projects from scratch or based on pre-made themes. Also modified or redesigned projects based on updated requirements and designs</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Managed and provided support for some of the projects, helped with domain and hosting of the projects</li>
+                                        <li class="work-place-tech-stack"><span>Tech Stack:</span> WordPress, PHP, MySQL, HTML, CSS, JavaScript, jQuery, Git, GitHub, SSL, cPanel, Slack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="work-place">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <h3>Junior WordPress Developer</h3>
+                                <h4>AppearMe</h4>
+                                <p class="date">Jun 2018 - Jun 2019</p>
+                                <div class="work-place-desc" style="display: none;">
+                                    <p class="work-place-info">AppearMe is an application that finds freelance attorneys in your area around the US. They have multiple WordPress projects and I managed, made changes, modified, and created new content and features on these projects and the main product website.</p>
+                                    <ul class="work-place-main-tasks">
+                                        <li><i class="fa-solid fa-caret-right"></i> Responsible for the front-end and back-end of the projects. Developed new features and pages based on provided requirements and designs</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Made optimizations, backups and updates of the theme, plugins and the content of the projects. Worked on the SEO optimizations with the team's SEO specialist</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> Regular daily sessions and meeting regarding the progress and upcoming tasks</li>
+                                        <li class="work-place-tech-stack"><span>Tech Stack:</span> WordPress, PHP, MySQL, HTML, CSS, JavaScript, jQuery, cPanel, Slack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="work-place">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <div class="remote-position">Remote</div>
+                                <h3>Freelance WordPress & Front-End Web Developer</h2>
+                                <h4>Upwork</h4>
+                                <p class="date">May 2018 - Present</p>
+                                <div class="work-place-desc" style="display: none;">
+                                    <p class="work-place-info">I also work as a freelancer and delivered multiple successful projects during the years. I'm always open to discussing product development work or new opportunites. <a href="#contact">Get in touch</a> and let's get started!</p>
+                                    <ul class="work-place-main-tasks">
+                                        <li><i class="fa-solid fa-caret-right"></i> Managing, setting up tasks, developing project features and pages based on requirements and design, while always being up-to-date with the client to report, meet deadlines and provide support during and after the project is delivered</li>
+                                        <li><i class="fa-solid fa-caret-right"></i> SEO optimizations and security included</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Title -->
+    <section id="services-custom-title" class="services-custom-title">
+        <div class="container">
+            <div class="content-holder">
+                <div class="services-title-container title-container">
+                    <h2>Services</h2>
+                    <p>These are some of the services that I provide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="content-holder">
+                <div class="services-content-container">
+                    <div id="services-content-info-container" class="services-content-info-container">
+                        <div class="back-to-service-intro-btn" style="display: none;">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="initial-services-content">
+                            <h3>What I Offer</h3>
+                            <p>Are you in need of a professional and reliable WordPress developer? Look no further! I offer a range of services to help you create a stunning and functional website that is tailored to your unique needs. I specialize in creating custom themes and plugins, designing responsive and user-friendly layouts, and providing support and maintenance for your website.</p>
+                            <p>Whether you're looking to start a new project from scratch or redesign your existing website, I can help you achieve your goals. <span>Click</span> on the services to know <span>more details</span> about each of them.</p>
+                            <p>I strive for the following qualities:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-caret-right"></i> Top-notch professional websites</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Responsive websites</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Clean and clear code</li>
+                                <li><i class="fa-solid fa-caret-right"></i> SEO-friendly websites</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Full support</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Fast communication</li>
+                            </ul>
+                        </div>
+                        <div class="services-more-content-container" style="display: none;">
+                            <h3 class="service-title"></h3>
+                            <div class="service-desc"></div>
+                        </div>
+                    </div>
+                    <div class="services-content-list-container">
+                        <div class="service wordpress-service" data-service="wordpress">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <h4>WordPress Theme and Plugin Development</h4>
+                            <p class="short-desc">Creating custom themes and plugins on WordPress based on client specifications and requirements.</p>
+                            <div class="long-desc">
+                                <p>As a WordPress developer, one of my core services is creating custom themes and plugins adapted to the specific needs of my clients. I can help you create a stunning and functional website that stands out from the crowd.</p>
+                                <p>When it comes to WordPress theme development, I work closely with clients to understand their vision and preferences, and then create custom themes using the latest technologies and design trends. I use PHP, HTML, CSS, and JavaScript as the main languages to build responsive and user-friendly themes that are optimized for performance and engagement.</p>
+                                <p>Similarly, for WordPress plugin development, I can create custom plugins that add functionality and features to your website that are not available in the core WordPress platform. I use WordPress standards to develop plugins that are secure, scalable, and easy to use. I also provide advice and add already existing plugins which won't affect the website performance and provide the requested features.</p>
+                                <p>With my WordPress theme and plugin development services, you can have the confidence that your website will be unique, and adapted to your needs. <a href="#contact">Contact me</a> to learn more about how I can help you create a custom WordPress project that meets your requirements and exceeds your expectations.</p>
+                            </div>
+                        </div>
+                        <div class="service wordpress-customization-service" data-service="wordpress-customization">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <h4>WordPress Customization</h4>
+                            <p class="short-desc">Customizing and configuring existing WordPress themes to meet client needs, including modifying layout, colors, and functionality.</p>
+                            <div class="long-desc">
+                                <p>In addition to creating custom themes and plugins, I also offer WordPress customization service to help clients modify existing WordPress themes and plugins to meet their unique needs. This service is particularly useful for clients who have an existing WordPress website but want to make changes to its appearance or functionality.</p>
+                                <p>As part of my WordPress customization service, I work closely with clients to understand their requirements and preferences. I can modify the layout, colors, and functionality of WordPress themes and plugins to create a custom look and feel that aligns with their branding.</p>
+                                <p>Whether you're looking to add new features, improve performance, or enhance the user experience of your WordPress website, I can help you achieve your goals.</p>
+                                <p><a href="#contact">Contact me</a> to learn more about how I can help you customize your WordPress website.</p>
+                            </div>
+                        </div>
+                        <div class="service design-to-wordpress-service" data-service="design-to-wordpress">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                            <h4>Design to WordPress Conversion</h4>
+                            <p class="short-desc">Converting design files like PSD, Figma, and Adobe XD to WordPress templates.</p>
+                            <div class="long-desc">
+                                <p>Do you have a business and you just finished the branding of the business? Now you also have the design files and looking for a developer to convert it to a functional WordPress website? Look no further, as I offer design to WordPress conversion services that can help you bring your designs to life.</p>
+                                <p>I have extensive experience in converting design files into responsive and optimized WordPress templates.</p>
+                                <p>Whether you're a web design agency or a business owner, my design to WordPress conversion services can help you save time and resources while ensuring a seamless conversion process. I follow best practices and standards to ensure that your website is secure, scalable, and user-friendly.</p>
+                                <p><a href="#contact">Contact me</a> to get to know the needs and requirements and start to bring your project's design to life.</p>
+                            </div>
+                        </div>
+                        <div class="service responsive-web-development-service" data-service="responsive-web-development">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h4>Responsive Web Development</h4>
+                            <p class="short-desc">Creating responsive and user-friendly websites using HTML, CSS, and JavaScript that look great on all devices.</p>
+                            <div class="long-desc">
+                                <p>In today's digital world, having a responsive website that looks great on all devices is essential to your success. As a skilled developer, I offer responsive web development services that use HTML, CSS, and JavaScript to create user-friendly and visually appealing websites that work seamlessly on desktop, tablet, and mobile.</p>
+                                <p>With my responsive web development services, I take a mobile-first approach to ensure that your website is optimized for the smallest screen size and then scale it up to larger devices. I use modern technologies and frameworks to create responsive layouts that adapt to different screen sizes, resolutions, and orientations.</p>
+                                <p>I also ensure that your responsive website is optimized for speed, performance, and search engine visibility by using best practices and standards to write clean, valid, and semantic code that meets accessibility and usability requirements.</p>
+                                <p><a href="#contact">Contact me</a> to learn more about how I can help you create a responsive and user-friendly website that looks great on all devices and drives traffic, leads, and conversions.</p>
+                            </div>
+                        </div>
+                        <div class="service maintenance-and-optimization-service" data-service="maintenance-and-optimization">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h4>Website Maintenance and Optimization</h4>
+                            <p class="short-desc">Providing ongoing maintenance and optimization services to ensure that websites are always up to date, secure, and performing at their best.</p>
+                            <div class="long-desc">
+                                <p>Creating a website is only the first step in building a successful online presence. Ongoing maintenance and optimization are crucial to ensuring that your website remains secure, up to date, and performs at its best.</p>
+                                <p>With my website maintenance and optimization services, you can rest assured that your website is in good hands. I provide regular updates to your website, and if it's a WordPress website, then I do updates of its core, themes, and plugins, and ensure that your website is backed up, monitored, and secured against potential threats.</p>
+                                <p>I also offer optimization services to improve your website's speed, performance, and user experience. I use various tools and techniques to optimize your website's code, images, and content, and ensure that it loads quickly and smoothly across all devices. Ongoing support and consultation are always included.</p>
+                                <p>I'm available to answer any questions, troubleshoot issues, and provide guidance. <a href="#contact">Contact me</a> and let's get started.</p>
+                            </div>
+                        </div>
+                        <div class="service performance-optimization-service" data-service="performance-optimization">
+                            <i class="fa-solid fa-gauge-high"></i>
+                            <h4>Website Performance Optimization</h4>
+                            <p class="short-desc">Improving website performance and load times by optimizing page speed, image compression, caching, and other techniques.</p>
+                            <div class="long-desc">
+                                <p>In today's fast-paced digital world, website speed and performance are critical factors in determining the success of your online presence in today's fast-paced digital world. Slow-loading websites not only frustrate users but can also negatively impact your search engine rankings.</p>
+                                <p>I offer a range of services to help improve your website's speed and performance. I use various techniques such as page speed optimization, image compression, caching, and code optimization to ensure that your website loads quickly and efficiently. By minimizing the amount of code and data that needs to be transferred between the server and the client's browser, your website's load times will significantly improve.</p>
+                                <p><a href="#contant">Contact me</a> to get to know how I can help you optimize your website and improve your online presence.</p>
+                            </div>
+                        </div>
+                        <div class="service website-security-service" data-service="website-security">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h4>Website Security and Protection</h4>
+                            <p class="short-desc">Protecting websites from security threats by implementing measures like firewalls, malware scanning, and regular backups.</p>
+                            <div class="long-desc">
+                                <p>Website security is essential to protect your website from cyber-attacks and to ensure that your website visitors and data are safe.</p>
+                                <p>I implement various measures like firewalls, plugins, malware scanning, regular backups, and updates to ensure that your website is secure and up to date. It's essential to identify potential vulnerabilities and providing solutions to take care of them.</p>
+                                <p>By regularly monitoring your website's security and performing maintenance tasks such as updates and backups, you'll avoid costly downtime and data loss.</p>
+                                <p><a href="#contact">Contact me</a> and let's have a discussion about the state of your website and identify potential fixes.</p>
+                            </div>
+                        </div>
+                        <div class="service website-migration-hosting-service" data-service="website-migration-hosting">
+                            <i class="fa-solid fa-server"></i>
+                            <h4>Website Migration and Hosting Management</h4>
+                            <p class="short-desc">Migrating websites to new hosts, managing DNS settings, and ensuring that websites are hosted on secure and reliable servers properly.</p>
+                            <div class="long-desc">
+                                <p>Migrating a website can be a daunting task, especially if you're not familiar with the process. As I have deployed many websites or took care of the migration process, I have experience in website migration and hosting management and can handle the entire process for you.</p>
+                                <p>I'll make sure that your website is migrated smoothly to a new host without much or any downtime, making sure that your website is up and running smoothly on the new server. Additionally, I can help you select a secure and reliable hosting provider that meets your needs and budget.</p>
+                                <p>In addition to website migration, I make sure your website is hosted on a secure and reliable server and perform regular backups, updates, and security checks to ensure that your website is always up to date and secure.</p>
+                                <p><a href="#contact">Contact me</a> and let's migrate and secure your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="content-holder">
+                <div class="portfolio-title-container title-container">
+                    <h2>Portfolio</h2>
+                    <p>Some of the projects that I did for clients</p>
+                </div>
+                <div class="portfolio-content-container">
+                    <ul class="portfolio-list">
+                        <li class="portfolio-item">
+                            <div class="portfolio-item-content">
+                                <div>
+                                    <p class="project-overline">Featured Project</p>
+                                    <h3 class="project-title">
+                                        <a href="https://kristinastransportationservices.com/" target="_blank">Kristina's Transport Services</a>
+                                    </h3>
+                                    <div class="project-description">
+                                        <p>Luxury car reservation service in the US. They provide a wide variety of town cars like Limousine, SUVs, And buses around the MA, with high quality chauffeur service.</p>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="https://kristinastransportationservices.com/" target="_blank">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item-image">
+                                <a href="https://kristinastransportationservices.com/" target="_blank">
+                                    <img src="images/kristinas-transport-services.png" title="Kristina's Transport Services" alt="Kristina's Transport Services" width="645" height="343">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio-item">
+                            <div class="portfolio-item-content">
+                                <div>
+                                    <p class="project-overline">Featured Project</p>
+                                    <h3 class="project-title">
+                                        <a href="https://communityconnectionsdetroit.org/" target="_blank">Community Connections Detroit</a>
+                                    </h3>
+                                    <div class="project-description">
+                                        <p>Community Connections Grant Program is a participatory grantmaking platform with 17 years of experience spearheading multiple grantmaking initiatives. Community Connections has supported over one thousand five hundred innovative, community-driven projects.</p>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="https://communityconnectionsdetroit.org/" target="_blank">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item-image">
+                                <a href="https://communityconnectionsdetroit.org/" target="_blank">
+                                    <img src="images/ccd-banner-img.png" title="Community Connections Detroit" alt="Community Connections Detroit" width="645" height="343">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio-item">
+                            <div class="portfolio-item-content">
+                                <div>
+                                    <p class="project-overline">Featured Project</p>
+                                    <h3 class="project-title">
+                                        <a href="https://thebopm.com/" target="_blank">Bureau Of Property Management</a>
+                                    </h3>
+                                    <div class="project-description">
+                                        <p>Bureau Of Property Management provides good homes for their tenants by focusing on their individual desires and needs. They manage nearly two hundred units across a dozen properties in Midtown, Detroit, USA.</p>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="https://thebopm.com/" target="_blank">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item-image">
+                                <a href="https://thebopm.com/" target="_blank">
+                                    <img src="images/bopm-banner-img.png" title="Bureau Of Property Management" alt="Bureau Of Property Management" width="645" height="343">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="portfolio-item">
+                            <div class="portfolio-item-content">
+                                <div>
+                                    <p class="project-overline">Featured Project</p>
+                                    <h3 class="project-title">
+                                        <a href="https://flashphotostudio.com/" target="_blank">Flash Photo Studio</a>
+                                    </h3>
+                                    <div class="project-description">
+                                        <p>With over 30 years of professional experience, Mardo, the CEO and owner of Flash Photo Studio, is a wedding and portrait photographer, with unique takes and photos delivered in any occasion. If you live in Lexington, MA in the US, and need a photographor for an event or occasion, get in touch with him.</p>
+                                    </div>
+                                    <div class="project-link">
+                                        <a href="https://flashphotostudio.com/" target="_blank">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item-image">
+                                <a href="https://flashphotostudio.com/" target="_blank">
+                                    <img src="images/flashphotostudio.png" title="Flash Photo Studio" alt="Flash Photo Studio" width="645" height="343">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Projects -->
+    <section id="personal-projects" class="personal-projects">
+        <div class="container">
+            <div class="content-holder">
+                <div class="personal-projects-title-container title-container">
+                    <h2>Personal Projects</h2>
+                    <p>Some of the projects that I worked on and developed throughout the years</p>
+                </div>
+                <div class="personal-projects-content-container">
+                    <div class="personal-projects-column personal-projects-left-column">
+                        <div class="personal-projects-side-title">
+                            <h3>Making side projects on my free time is fun!</h3>
+                        </div>
+                        <div class="personal-project">
+                            <div class="personal-project-image">
+                                <a href="http://kkasbarian.com/digital-business-card/" target="_blank">
+                                    <img src="images/react-digital-business-card-img.png" title="React Digital Business Card" alt="React Digital Business Card" width="624" height="350">
+                                </a>
+                            </div>
+                            <div class="personal-project-description">
+                                <h3>
+                                    <a href="http://kkasbarian.com/digital-business-card/" target="_blank">React Digital Business Card</a>
+                                </h3>
+                                <p>Personal digital business card made with React that shows a bit about myself and what I do. It also comes with a day/night toggle</p>
+                                <a href="http://kkasbarian.com/digital-business-card/" target="_blank" class="personal-project-link-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="personal-project">
+                            <div class="personal-project-image">
+                                <a href="https://kkasbarian.com/fcc-challenges/" target="_blank">
+                                    <img src="images/fcc-img.png" title="freeCodeCamp Challenges" alt="freeCodeCamp Challenges" width="624" height="350">
+                                </a>
+                            </div>
+                            <div class="personal-project-description">
+                                <h3>
+                                    <a href="https://kkasbarian.com/fcc-challenges/" target="_blank">freeCodeCamp Challenges</a>
+                                </h3>
+                                <p>freeCodeCamp is well known for most developers, I started their courses and challenges a while ago and finished multiple of them. You can check my freeCodeCamp profile from the footer, or check some of the challenges that I did.</p>
+                                <a href="https://kkasbarian.com/fcc-challenges/" target="_blank" class="personal-project-link-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="personal-projects-side-bottom-title">
+                            <p>I'll add more personal projects later. My next goal is to learn React so I'll also make such projects that'll help me get my react knowledge to the next level.</p>
+                        </div>
+                    </div>
+                    <div class="personal-projects-column personal-projects-right-column">
+                        <div class="personal-project">
+                            <div class="personal-project-image">
+                                <a href="https://kkasbarian.com/react-new-year-countdown/" target="_blank">
+                                    <img src="images/react-new-year-countdown-img.png" title="React New Year Countdown" alt="React New Year Countdown" width="624" height="350">
+                                </a>
+                            </div>
+                            <div class="personal-project-description">
+                                <h3>
+                                    <a href="https://kkasbarian.com/react-new-year-countdown/" target="_blank">React New Year Countdown</a>
+                                </h3>
+                                <p>A New Year countdown for practicing React. Nothing fancy, just a countdown until the next time we're gonna celebrate New Year again</p>
+                                <a href="https://kkasbarian.com/react-new-year-countdown/" target="_blank"  class="personal-project-link-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="personal-project">
+                            <div class="personal-project-image">
+                                <a href="https://kkasbarian.com/30Days30Sites/" target="_blank">
+                                    <img src="images/30d30s-img.png" title="30Days30Sites" alt="30Days30Sites" width="624" height="350">
+                                </a>
+                            </div>
+                            <div class="personal-project-description">
+                                <h3>
+                                    <a href="https://kkasbarian.com/30Days30Sites/" target="_blank">30Days30Sites</a>
+                                </h3>
+                                <p>The only way to get better at building websites is... well... by building websites. So 30Days30Sites was a challenge that I took to build 30 websites in 30 days.</p>
+                                <a href="https://kkasbarian.com/30Days30Sites/" target="_blank" class="personal-project-link-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="personal-project">
+                            <div class="personal-project-image">
+                                <a href="images/digital-agency-full-website-pic.png" target="_blank">
+                                    <img src="images/h2d-digital-agency-img.png" title="Digital Agency Website Template" alt="Digital Agency Website Template" width="624" height="350">
+                                </a>
+                            </div>
+                            <div class="personal-project-description">
+                                <h3>
+                                    <a href="images/digital-agency-full-website-pic.png" target="_blank">Digital Agency Website Template</a>
+                                </h3>
+                                <p>H2D is a clean, modern and professional Digital Agency HTML Template built for designers, photographers, agencies, freelancers and more, to use as a landing page for their businesses. <a href="#contact">Contact me</a> if you need this template.</p>
+                                <div class="get-template-btn">
+                                    <a href="#contact">Get Template</a>
+                                </div>
+                                <a href="images/digital-agency-full-website-pic.png" target="_blank" class="personal-project-link-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="content-holder">
+                <div class="contact-title-container title-container">
+                    <h2>Let's Get In Touch</h2>
+                    <p>If you need a new website or a redesign of your current site, or just a meeting for a job opportunity, fill out the form below and I'll get back to you ASAP. It's quick, I promise :)</p>
+                </div>
+                <div class="contact-content-container">
+                    <div data-tf-widget="zdz53C" data-tf-opacity="100" data-tf-iframe-props="title=Contact Form Submission" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:600px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upwork Banner -->
+    <section id="upwork-banner" class="upwork-banner">
+        <div class="container">
+            <div class="content-holder">
+                <div class="upwork-banner-content">
+                    <div class="upwork-banner-content-box upwork-banner-title">
+                        <h2>Start a Project</h2>
+                    </div>
+                    <div class="upwork-banner-content-box upwork-banner-desc">
+                        <p>Interested in working together? Let's connect and discuss your upcoming project</p>
+                    </div>
+                    <div class="upwork-banner-content-box upwork-banner-btn">
+                        <a href="https://www.upwork.com/freelancers/~0107cce0b4a32f236b" target="_blank" title="Let's Connect on Upwork">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="content-holder">
+            <div class="footer-content-container">
+                <div class="footer-left">
+                    <a href="/" class="footer-logo"><img src="images/footer-logo.svg" title="Kourken Kasbarian" alt="Kourken Kasbarian" width="123" height="60"></a>
+                    <ul class="footer-socials">
+                        <li><a href="https://www.linkedin.com/in/kkasbarian/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/KKasbarian" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.freecodecamp.org/kkasbarian" target="_blank" title="Check my Medium publications"><i class="fab fa-free-code-camp"></i></a></li>
+                        <li><a href="https://medium.com/@kourkenkasbarian" target="_blank" title="Check my Medium publications"><i class="fab fa-medium-m"></i></a></li>
+                    </ul>
+                    <ul class="footer-site-info footer-site-info-desktop">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="sitemap.xml">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-center">
+                    <p>Copyright &copy; <span id="copyright-year"></span> <a href="https://www.linkedin.com/in/kkasbarian/" target="_blank">Kourken Kasbarian</a></p>
+                    <p id="last-update" class="last-update"></p>
+                </div>
+                <div class="footer-right">
+                    <ul class="footer-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services-custom-title">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#personal-projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                    <ul class="footer-site-info footer-site-info-mobile">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="sitemap.xml">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
     
-<footer class="copy">
-	<p>Copyright &copy; <span id="copyright-year"></span> | Coded By <a href="https://www.linkedin.com/in/kkasbarian/" target="_blank">Kourken Kasbarian</a>.</p>
-    <p id="last-update" class="last-update"></p>
-</footer> <!-- END Footer Section -->
-    
-<!-- Go to top button -->
-<button type="button" name="top" id="myBtn" style="display:none;"><a href="#" data-scroll><img src="images/up.png" alt="Go to top"></a></button>
-
-<!-- Website upcoming update notification -->
-<div class="website-upcoming-update-notif">
-    <p>Website update with a big redesign is coming soon, so stay tuned!! &#128578;</p>
+<!-- Back to top button -->
+<div id="back-to-top">
+    <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
 </div>
 
-<!-- TypeForm Chat Button -->
-<div class="cui-embed" data-cui-uid="UAG3c4" data-cui-mode="pill" data-cui-pill-button-color="#0B93EE"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
-
-<!-- JS Main File and JS Libraries -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
-<script src="js/jquery.introLoader.pack.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
-<script src="https://unpkg.com/sweet-scroll@4.0.0/sweet-scroll.min.js"></script>
+<!-- jQuery and main JS file -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="js/main.js" type="text/javascript"></script>
 
 <!-- Google Analytics -->
@@ -446,79 +769,3 @@
 
 </body>
 </html>
-
-
-
-<!-- <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbySzom4kJVSFwVvjVaEyxQpHHBztfND3xnWhr4zHtrLx_TLNAoR/exec">-->
-        <!--Hidden Input to prevent Spam-->
-        <!-- <label class="sr-only">Keep this field blank</label>
-        <input id="honeypot" type="text" name="honeypot" value=""><br> -->
-        <!-- END Spam Prevention -->
-        <!-- <div class="user-name-email">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" autocomplete="on" placeholder="Name..." required>
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" autocomplete="on" placeholder="Email..." required>
-                <h2>Your email will not be shared with anyone.</h2>
-            </div>
-        </div>
-        <div class="user-subject-proj-type">
-            <div>
-                <label for="subject">Subject:</label>
-                <input type="text" name="subject" id="subject" placeholder="Subject..." required>
-            </div>
-            <div>
-                <label for="project-type">Project Type:</label>
-                <select name="request" id="project-type" required>
-                    <option value="select">Select An Option</option>
-                    <option value="webpage">One-page Website</option>
-                    <option value="website">Multi-page Website</option>
-                    <option value="w-redesign">Website Redesign/Renew</option>
-                    <option value="seo">WordPress Website</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-        </div>
-        <div class="user-message-field">
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" rows="8" placeholder="Your message here. Add as much details about the project as possible!" required></textarea>
-            <h2>P.S: All Fields Required!</h2>
-        </div>
-        <div class="user-add-info-captcha">
-            <div>
-                <label>Additional Options:</label>
-                <ul>
-                    <li>
-                        <label class="container" for="responsive-check"> Responsive
-                            <input type="checkbox" name="responsive" id="responsive-check">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li>
-                        <label class="container" for="seo-check"> SEO
-                            <input type="checkbox" name="seo" id="seo-check">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <div class="captcha-center">
-                <div class="captcha">
-                    <div class="g-recaptcha" name="captcha" data-sitekey="6Ld5RTgUAAAAAEb7BX4h-egMHndjPpAsFgfs88E1"></div>
-                    </div>
-            </div>
-        </div>
-        <div class="user-form-submit">
-            <input type="submit" class="submit" value="Send">
-        </div> -->
-
-        <!-- Submit Success Message -->
-        <!-- <div class="thankyou_message" style="display: none;">
-            <h2><span>Thanks</span> for sending an email! I'll get back to you within 24 hours!</h2>
-        </div>
-</form> -->
-
-<!-- <a href="#portfolio" data-scroll>Portfolio &#8595;</a> -->
