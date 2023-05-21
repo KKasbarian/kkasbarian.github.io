@@ -1744,8 +1744,12 @@ main {
 
 /* Contact */
 #contact {
-    padding: 8rem 0;
+    padding: 8rem 0 12rem 0;
     background: var(--gray);
+
+    @media screen and (max-width: 767px) {
+        padding: 8rem 0;
+    }
 
     .container {
         @media screen and (max-width: 767px) {
@@ -1779,11 +1783,27 @@ main {
             }
 
             .contact-content-container {
+                text-align: center;
                 width: 100%;
-                min-height: 35rem;
+                min-height: 10rem;
+                margin-top: 3rem;
 
-                @media screen and (max-width: 767px) {
-                    min-height: 60rem;
+                button {
+                    padding: 1.2rem 3rem;
+                    font-size: 2rem;
+                    font-family: var(--text-font);
+                    font-weight: 700;
+                    color: var(--white);
+                    background: var(--primary-blue);
+                    border: 2px solid var(--primary-blue);
+                    border-radius: 5rem;
+                    cursor: pointer;
+                    @include transitionContent(.3s);
+
+                    &:hover {
+                        color: var(--primary-blue);
+                        background: transparent;
+                    }
                 }
             }
         }

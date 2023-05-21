@@ -120,8 +120,10 @@ $(document).ready(function() {
     let startedForm = 0;
     function startForm() {
         if(startedForm == 0) {
-            $('.contact-content-container').html('<div data-tf-widget="zdz53C" data-tf-opacity="100" data-tf-iframe-props="title=Contact Form Submission" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:600px;"></div>');
-            $('.contact-content-container').append('<script src="//embed.typeform.com/next/embed.js">');
+            // $('.contact-content-container').html('<div data-tf-widget="zdz53C" data-tf-opacity="100" data-tf-iframe-props="title=Contact Form Submission" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:600px;"></div>');
+            // $('.contact-content-container').append('<script src="//embed.typeform.com/next/embed.js">');
+            $('.contact-content-container').html('<button data-tf-popup="zdz53C" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Contact Form Submission" data-tf-transitive-search-params data-tf-medium="snippet">Get in Touch</button>');
+            $('.contact-content-container').append('<script src="//embed.typeform.com/next/embed.js"></script>');
         }
         startedForm = 1;
     }
@@ -174,9 +176,9 @@ $(document).ready(function() {
 
     /* Dynamic Last Updated Date */
     var lastUpdate = $("#last-update");
-    lastUpdate.text("Last Updated: 09/05/2023");
-    lastUpdate.attr('alt', 'Monday, May 9th 2023');
-    lastUpdate.attr('title', 'Monday, May 9th 2023');
+    lastUpdate.text("Last Updated: 21/05/2023");
+    lastUpdate.attr('alt', 'Sunday, May 21st 2023');
+    lastUpdate.attr('title', 'Sunday, May 21st 2023');
 });
 
 /* Hide loader when page is loaded */
