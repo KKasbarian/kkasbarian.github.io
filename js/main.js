@@ -131,6 +131,19 @@ $(document).ready(function() {
         startForm();
     });
 
+    /* Toggle contact methods dropdown */
+    let connectBtn = $('#contact-methods .contact-methods-container h3');
+    let connectList = $('#contact-methods .contact-methods-container .contact-methods-list');
+    connectBtn.on('click', function() {
+        if ( $(connectList).css('display') === 'none' ) {
+            $(connectBtn).addClass('connectListToggled');
+            $(connectList).css('display', 'inline-block');
+        } else {
+            $(connectBtn).removeClass('connectListToggled');
+            $(connectList).css('display', 'none');
+        }
+    });
+
     /* Easter egg that nobody asked for */
     // Counters
     let clickCounter = 0;
