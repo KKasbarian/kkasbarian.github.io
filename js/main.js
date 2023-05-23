@@ -176,9 +176,9 @@ $(document).ready(function() {
 
     /* Dynamic Last Updated Date */
     var lastUpdate = $("#last-update");
-    lastUpdate.text("Last Updated: 21/05/2023");
-    lastUpdate.attr('alt', 'Sunday, May 21st 2023');
-    lastUpdate.attr('title', 'Sunday, May 21st 2023');
+    lastUpdate.text("Last Updated: 23/05/2023");
+    lastUpdate.attr('alt', 'Tuesday, May 23rd 2023');
+    lastUpdate.attr('title', 'Tuesday, May 23rd 2023');
 });
 
 /* Hide loader when page is loaded */
