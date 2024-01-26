@@ -72,4 +72,6 @@ If you want to request a project or give a feedback, I'll be glad if you reach o
 
 5.1: Added languages I speak under skills on homepage, switched the contact form to a popup type, so user can click a button on contact section and the form will open. *(May 21, 2023)*
 
-5.2: Added Woocommerce as a Back End tool nect to WordPress, added a dropdown for multiple services instead of just an Upwork button before the footer for multiple options other than the contact form.
+5.2: Added Woocommerce as a Back End tool nect to WordPress, added a dropdown for multiple services instead of just an Upwork button before the footer for multiple options other than the contact form. *(May 24, 2023)*
+
+5.3: Updated my CV and About Me section with the latest experiences and positions. *(Jan 26, 2024)*
