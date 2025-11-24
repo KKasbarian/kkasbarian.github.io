@@ -75,3 +75,5 @@ If you want to request a project or give a feedback, I'll be glad if you reach o
 5.2: Added Woocommerce as a Back End tool nect to WordPress, added a dropdown for multiple services instead of just an Upwork button before the footer for multiple options other than the contact form. *(May 24, 2023)*
 
 5.3: Updated my CV and About Me section with the latest experiences and positions. *(Jan 26, 2024)*
+
+5.4: Removed the CV buttons, removed an old contact form submission handler JS file, updated my years of experience. *(Nov 24, 2025)*
