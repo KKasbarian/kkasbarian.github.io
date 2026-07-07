@@ -77,3 +77,5 @@ If you want to request a project or give a feedback, I'll be glad if you reach o
 5.3: Updated my CV and About Me section with the latest experiences and positions. *(Jan 26, 2024)*
 
 5.4: Removed the CV buttons, removed an old contact form submission handler JS file, updated my years of experience. *(Nov 24, 2025)*
+
+5.5: Updated the About Me section with the latest experiences and positions. *(July 7, 2026)*
